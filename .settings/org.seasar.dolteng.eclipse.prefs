@@ -1,0 +1,9 @@
+#Sat Oct 18 19:04:55 GMT+09:00 2014
+DaoType=S2JDBC
+DefaultResourcePath=/TrpgSheets/src/main/resources
+DefaultRootPackage=trpgsheets
+DefaultSrcPath=/TrpgSheets/src/main/java
+ServletPath=/TrpgSheets
+ViewType=SA-Struts
+WebContentsRoot=src/main/webapp/
+eclipse.preferences.version=1
