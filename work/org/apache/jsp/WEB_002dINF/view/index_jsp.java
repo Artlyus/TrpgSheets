@@ -7,12 +7,6 @@ import javax.servlet.jsp.*;
 public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
-static private org.apache.jasper.runtime.ProtectedFunctionMapper _jspx_fnmap_0;
-
-static {
-  _jspx_fnmap_0= org.apache.jasper.runtime.ProtectedFunctionMapper.getMapForFunction("f:url", org.seasar.struts.taglib.S2Functions.class, "url", new Class[] {java.lang.String.class});
-}
-
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
 
   private static java.util.List _jspx_dependants;
@@ -22,6 +16,9 @@ static {
     _jspx_dependants.add("/WEB-INF/view/common/common.jsp");
   }
 
+  private org.apache.jasper.runtime.TagHandlerPool _005fjspx_005ftagPool_005ftiles_005finsert_0026_005ftemplate_005fflush;
+  private org.apache.jasper.runtime.TagHandlerPool _005fjspx_005ftagPool_005ftiles_005fput_0026_005fvalue_005fname_005fnobody;
+  private org.apache.jasper.runtime.TagHandlerPool _005fjspx_005ftagPool_005ftiles_005fput_0026_005ftype_005fname;
   private org.apache.jasper.runtime.TagHandlerPool _005fjspx_005ftagPool_005fs_005fform;
   private org.apache.jasper.runtime.TagHandlerPool _005fjspx_005ftagPool_005fs_005fsubmit_0026_005fvalue_005fproperty_005fnobody;
   private org.apache.jasper.runtime.TagHandlerPool _005fjspx_005ftagPool_005fs_005flink_0026_005fhref;
@@ -34,6 +31,9 @@ static {
   }
 
   public void _jspInit() {
+    _005fjspx_005ftagPool_005ftiles_005finsert_0026_005ftemplate_005fflush = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
+    _005fjspx_005ftagPool_005ftiles_005fput_0026_005fvalue_005fname_005fnobody = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
+    _005fjspx_005ftagPool_005ftiles_005fput_0026_005ftype_005fname = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
     _005fjspx_005ftagPool_005fs_005fform = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
     _005fjspx_005ftagPool_005fs_005fsubmit_0026_005fvalue_005fproperty_005fnobody = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
     _005fjspx_005ftagPool_005fs_005flink_0026_005fhref = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
@@ -42,6 +42,9 @@ static {
   }
 
   public void _jspDestroy() {
+    _005fjspx_005ftagPool_005ftiles_005finsert_0026_005ftemplate_005fflush.release();
+    _005fjspx_005ftagPool_005ftiles_005fput_0026_005fvalue_005fname_005fnobody.release();
+    _005fjspx_005ftagPool_005ftiles_005fput_0026_005ftype_005fname.release();
     _005fjspx_005ftagPool_005fs_005fform.release();
     _005fjspx_005ftagPool_005fs_005fsubmit_0026_005fvalue_005fproperty_005fnobody.release();
     _005fjspx_005ftagPool_005fs_005flink_0026_005fhref.release();
@@ -79,85 +82,8 @@ static {
       out.write("  \r\n");
       out.write("\r\n");
       out.write("\r\n");
-      out.write("<html>\r\n");
-      out.write("<head>\r\n");
-      out.write("<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\r\n");
-      out.write("<title>TRPG Character Sheets for Sword World 2.0</title>\r\n");
-      out.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"");
-      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${f:url('/css/common.css')}", java.lang.String.class, (PageContext)_jspx_page_context, _jspx_fnmap_0, false));
-      out.write("\" />\r\n");
-      out.write("</head>\r\n");
-      out.write("<body>\r\n");
-      out.write("<div id=\"container\">\r\n");
-      out.write("\t<div id=\"page\">\r\n");
-      out.write("\t\t<div id=\"header\">\r\n");
-      out.write("\t\t\t<h1 class=\"siteTitle\">TRPG Character Sheets</h1>\r\n");
-      out.write("\t\t\t<p class=\"catch\"><strong> for Sword World 2.0</strong></p>\r\n");
-      out.write("\t\t</div>\r\n");
-      out.write("\t\t<div id=\"content\">\r\n");
-      out.write("\t\t\t<div id=\"main\">\r\n");
-      out.write("\t\t\t\t<div class=\"section emphasis\">\r\n");
-      out.write("\t\t\t\t\t<div class=\"heading\">\r\n");
-      out.write("\t\t\t\t\t\t<p>Welcome.<BR>\r\n");
-      out.write("\t\t\t\t\t</div>\r\n");
-      out.write("\t\t\t\t\t<p>This site will be used by users as wanna be writer.</p>\r\n");
-      out.write("\t\t\t\t\t<p>If you are that so, push below button and create your character.</p>\r\n");
-      out.write("\t\t\t\t\t");
-      if (_jspx_meth_s_005fform_005f0(_jspx_page_context))
+      if (_jspx_meth_tiles_005finsert_005f0(_jspx_page_context))
         return;
-      out.write("\r\n");
-      out.write("\t\t\t\t</div>\r\n");
-      out.write("\t\t\t\t<div class=\"section normal update\">\r\n");
-      out.write("\t\t\t\t\t<div class=\"heading\">\r\n");
-      out.write("\t\t\t\t\t\t<h2>更新内容</h2>\r\n");
-      out.write("\t\t\t\t\t</div>\r\n");
-      out.write("\t\t\t\t\t<dl class=\"clearFix\">\r\n");
-      out.write("\t\t\t\t\t\t<dt>2014/10/25</dt>\r\n");
-      out.write("\t\t\t\t\t\t<dd>サイト新規構築</dd>\r\n");
-      out.write("\t\t\t\t\t</dl>\r\n");
-      out.write("\t\t\t\t</div>\r\n");
-      out.write("\t\t\t\t<div class=\"section normal\">\r\n");
-      out.write("\t\t\t\t\t<div class=\"heading\">\r\n");
-      out.write("\t\t\t\t\t\t<h2>キャラクター作成済みのプレイヤーへ</h2>\r\n");
-      out.write("\t\t\t\t\t</div>\r\n");
-      out.write("\t\t\t\t\t<p>If you already have any characters, please check character list.</p>\r\n");
-      out.write("\t\t\t\t\t<p>");
-      if (_jspx_meth_s_005flink_005f0(_jspx_page_context))
-        return;
-      out.write(".</p>\r\n");
-      out.write("\t\t\t\t</div>\r\n");
-      out.write("\t\t\t</div>\r\n");
-      out.write("\t\t\t<div id=\"nav\">\r\n");
-      out.write("\t\t\t\t<div class=\"section emphasis\">\r\n");
-      out.write("\t\t\t\t\t<div class=\"heading\">\r\n");
-      out.write("\t\t\t\t\t\t<h2>キャラシート一覧</h2>\r\n");
-      out.write("\t\t\t\t\t</div>\r\n");
-      out.write("\t\t\t\t\t\t<p>Character 01</p>\r\n");
-      out.write("\t\t\t\t</div>\r\n");
-      out.write("\t\t\t\t<div class=\"section emphasis\">\r\n");
-      out.write("\t\t\t\t\t<div class=\"heading\">\r\n");
-      out.write("\t\t\t\t\t\t<h2>セッションログ</h2>\r\n");
-      out.write("\t\t\t\t\t</div>\r\n");
-      out.write("\t\t\t\t\t\t<p>test session 01</p>\r\n");
-      out.write("\t\t\t\t\t\t<p>test session 02</p>\r\n");
-      out.write("\t\t\t\t</div>\r\n");
-      out.write("\t\t\t\t<div class=\"section emphasis\">\r\n");
-      out.write("\t\t\t\t\t<div class=\"heading\">\r\n");
-      out.write("\t\t\t\t\t\t<h2>リプレイ一覧</h2>\r\n");
-      out.write("\t\t\t\t\t</div>\r\n");
-      out.write("\t\t\t\t\t<p>sample</p>\r\n");
-      out.write("\t\t\t\t\t<p>sample</p>\r\n");
-      out.write("\t\t\t\t</div>\r\n");
-      out.write("\t\t\t</div>\r\n");
-      out.write("\t\t\t<hr class=\"clear\">\r\n");
-      out.write("\t\t</div>\r\n");
-      out.write("\t\t<div id=\"footer\">\r\n");
-      out.write("\t\t\t<address>Copyright(C)2014 Artlyus.All Rights Reserved.</address>\r\n");
-      out.write("\t\t</div>\r\n");
-      out.write("\t</div>\r\n");
-      out.write("</div>\r\n");
-      out.write("</body>\r\n");
-      out.write("</html>");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;
@@ -171,14 +97,146 @@ static {
     }
   }
 
-  private boolean _jspx_meth_s_005fform_005f0(PageContext _jspx_page_context)
+  private boolean _jspx_meth_tiles_005finsert_005f0(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  tiles:insert
+    org.apache.struts.taglib.tiles.InsertTag _jspx_th_tiles_005finsert_005f0 = (org.apache.struts.taglib.tiles.InsertTag) _005fjspx_005ftagPool_005ftiles_005finsert_0026_005ftemplate_005fflush.get(org.apache.struts.taglib.tiles.InsertTag.class);
+    _jspx_th_tiles_005finsert_005f0.setPageContext(_jspx_page_context);
+    _jspx_th_tiles_005finsert_005f0.setParent(null);
+    // /WEB-INF/view/index.jsp(1,1) name = template type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_tiles_005finsert_005f0.setTemplate("/WEB-INF/view/common/layout.jsp");
+    // /WEB-INF/view/index.jsp(1,1) name = flush type = java.lang.String reqTime = false required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_tiles_005finsert_005f0.setFlush(true);
+    int _jspx_eval_tiles_005finsert_005f0 = _jspx_th_tiles_005finsert_005f0.doStartTag();
+    if (_jspx_eval_tiles_005finsert_005f0 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
+      do {
+        out.write('\r');
+        out.write('\n');
+        out.write('	');
+        if (_jspx_meth_tiles_005fput_005f0(_jspx_th_tiles_005finsert_005f0, _jspx_page_context))
+          return true;
+        out.write('\r');
+        out.write('\n');
+        out.write('	');
+        if (_jspx_meth_tiles_005fput_005f1(_jspx_th_tiles_005finsert_005f0, _jspx_page_context))
+          return true;
+        out.write('\r');
+        out.write('\n');
+        int evalDoAfterBody = _jspx_th_tiles_005finsert_005f0.doAfterBody();
+        if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
+          break;
+      } while (true);
+    }
+    if (_jspx_th_tiles_005finsert_005f0.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _005fjspx_005ftagPool_005ftiles_005finsert_0026_005ftemplate_005fflush.reuse(_jspx_th_tiles_005finsert_005f0);
+      return true;
+    }
+    _005fjspx_005ftagPool_005ftiles_005finsert_0026_005ftemplate_005fflush.reuse(_jspx_th_tiles_005finsert_005f0);
+    return false;
+  }
+
+  private boolean _jspx_meth_tiles_005fput_005f0(javax.servlet.jsp.tagext.JspTag _jspx_th_tiles_005finsert_005f0, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  tiles:put
+    org.apache.struts.taglib.tiles.PutTag _jspx_th_tiles_005fput_005f0 = (org.apache.struts.taglib.tiles.PutTag) _005fjspx_005ftagPool_005ftiles_005fput_0026_005fvalue_005fname_005fnobody.get(org.apache.struts.taglib.tiles.PutTag.class);
+    _jspx_th_tiles_005fput_005f0.setPageContext(_jspx_page_context);
+    _jspx_th_tiles_005fput_005f0.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_tiles_005finsert_005f0);
+    // /WEB-INF/view/index.jsp(2,1) name = name type = java.lang.String reqTime = false required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_tiles_005fput_005f0.setName("title");
+    // /WEB-INF/view/index.jsp(2,1) name = value type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_tiles_005fput_005f0.setValue("TRPG Character Sheets");
+    int _jspx_eval_tiles_005fput_005f0 = _jspx_th_tiles_005fput_005f0.doStartTag();
+    if (_jspx_th_tiles_005fput_005f0.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _005fjspx_005ftagPool_005ftiles_005fput_0026_005fvalue_005fname_005fnobody.reuse(_jspx_th_tiles_005fput_005f0);
+      return true;
+    }
+    _005fjspx_005ftagPool_005ftiles_005fput_0026_005fvalue_005fname_005fnobody.reuse(_jspx_th_tiles_005fput_005f0);
+    return false;
+  }
+
+  private boolean _jspx_meth_tiles_005fput_005f1(javax.servlet.jsp.tagext.JspTag _jspx_th_tiles_005finsert_005f0, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  tiles:put
+    org.apache.struts.taglib.tiles.PutTag _jspx_th_tiles_005fput_005f1 = (org.apache.struts.taglib.tiles.PutTag) _005fjspx_005ftagPool_005ftiles_005fput_0026_005ftype_005fname.get(org.apache.struts.taglib.tiles.PutTag.class);
+    _jspx_th_tiles_005fput_005f1.setPageContext(_jspx_page_context);
+    _jspx_th_tiles_005fput_005f1.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_tiles_005finsert_005f0);
+    // /WEB-INF/view/index.jsp(3,1) name = name type = java.lang.String reqTime = false required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_tiles_005fput_005f1.setName("content");
+    // /WEB-INF/view/index.jsp(3,1) name = type type = java.lang.String reqTime = false required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_tiles_005fput_005f1.setType("string");
+    int _jspx_eval_tiles_005fput_005f1 = _jspx_th_tiles_005fput_005f1.doStartTag();
+    if (_jspx_eval_tiles_005fput_005f1 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
+      if (_jspx_eval_tiles_005fput_005f1 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE) {
+        out = _jspx_page_context.pushBody();
+        _jspx_th_tiles_005fput_005f1.setBodyContent((javax.servlet.jsp.tagext.BodyContent) out);
+        _jspx_th_tiles_005fput_005f1.doInitBody();
+      }
+      do {
+        out.write("\r\n");
+        out.write("\t\t<div id=\"content\">\r\n");
+        out.write("\t\t\t<div id=\"main\">\r\n");
+        out.write("\t\t\t\t<div class=\"section emphasis\">\r\n");
+        out.write("\t\t\t\t\t<div class=\"heading\">\r\n");
+        out.write("\t\t\t\t\t\t<p>Welcome.<BR>\r\n");
+        out.write("\t\t\t\t\t</div>\r\n");
+        out.write("\t\t\t\t\t<p>This site will be used by users as wanna be writer.</p>\r\n");
+        out.write("\t\t\t\t\t<p>If you are that so, push below button and create your character.</p>\r\n");
+        out.write("\t\t\t\t\t");
+        if (_jspx_meth_s_005fform_005f0(_jspx_th_tiles_005fput_005f1, _jspx_page_context))
+          return true;
+        out.write("\r\n");
+        out.write("\t\t\t\t</div>\r\n");
+        out.write("\t\t\t\t<div class=\"section normal update\">\r\n");
+        out.write("\t\t\t\t\t<div class=\"heading\">\r\n");
+        out.write("\t\t\t\t\t\t<h2>更新内容</h2>\r\n");
+        out.write("\t\t\t\t\t</div>\r\n");
+        out.write("\t\t\t\t\t<dl class=\"clearFix\">\r\n");
+        out.write("\t\t\t\t\t\t<dt>2014/10/25</dt>\r\n");
+        out.write("\t\t\t\t\t\t<dd>サイト新規構築</dd>\r\n");
+        out.write("\t\t\t\t\t</dl>\r\n");
+        out.write("\t\t\t\t</div>\r\n");
+        out.write("\t\t\t\t<div class=\"section normal\">\r\n");
+        out.write("\t\t\t\t\t<div class=\"heading\">\r\n");
+        out.write("\t\t\t\t\t\t<h2>キャラクター作成済みのプレイヤーへ</h2>\r\n");
+        out.write("\t\t\t\t\t</div>\r\n");
+        out.write("\t\t\t\t\t<p>If you already have any characters, please check character list.</p>\r\n");
+        out.write("\t\t\t\t\t<p>");
+        if (_jspx_meth_s_005flink_005f0(_jspx_th_tiles_005fput_005f1, _jspx_page_context))
+          return true;
+        out.write(".</p>\r\n");
+        out.write("\t\t\t\t</div>\r\n");
+        out.write("\t\t\t</div>\r\n");
+        out.write("\t\t");
+        int evalDoAfterBody = _jspx_th_tiles_005fput_005f1.doAfterBody();
+        if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
+          break;
+      } while (true);
+      if (_jspx_eval_tiles_005fput_005f1 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE) {
+        out = _jspx_page_context.popBody();
+      }
+    }
+    if (_jspx_th_tiles_005fput_005f1.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _005fjspx_005ftagPool_005ftiles_005fput_0026_005ftype_005fname.reuse(_jspx_th_tiles_005fput_005f1);
+      return true;
+    }
+    _005fjspx_005ftagPool_005ftiles_005fput_0026_005ftype_005fname.reuse(_jspx_th_tiles_005fput_005f1);
+    return false;
+  }
+
+  private boolean _jspx_meth_s_005fform_005f0(javax.servlet.jsp.tagext.JspTag _jspx_th_tiles_005fput_005f1, PageContext _jspx_page_context)
           throws Throwable {
     PageContext pageContext = _jspx_page_context;
     JspWriter out = _jspx_page_context.getOut();
     //  s:form
     org.seasar.struts.taglib.S2FormTag _jspx_th_s_005fform_005f0 = (org.seasar.struts.taglib.S2FormTag) _005fjspx_005ftagPool_005fs_005fform.get(org.seasar.struts.taglib.S2FormTag.class);
     _jspx_th_s_005fform_005f0.setPageContext(_jspx_page_context);
-    _jspx_th_s_005fform_005f0.setParent(null);
+    _jspx_th_s_005fform_005f0.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_tiles_005fput_005f1);
     int _jspx_eval_s_005fform_005f0 = _jspx_th_s_005fform_005f0.doStartTag();
     if (_jspx_eval_s_005fform_005f0 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
       do {
@@ -209,9 +267,9 @@ static {
     org.seasar.struts.taglib.S2SubmitTag _jspx_th_s_005fsubmit_005f0 = (org.seasar.struts.taglib.S2SubmitTag) _005fjspx_005ftagPool_005fs_005fsubmit_0026_005fvalue_005fproperty_005fnobody.get(org.seasar.struts.taglib.S2SubmitTag.class);
     _jspx_th_s_005fsubmit_005f0.setPageContext(_jspx_page_context);
     _jspx_th_s_005fsubmit_005f0.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_s_005fform_005f0);
-    // /WEB-INF/view/index.jsp(23,6) name = property type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/view/index.jsp(13,6) name = property type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_s_005fsubmit_005f0.setProperty("login");
-    // /WEB-INF/view/index.jsp(23,6) name = value type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/view/index.jsp(13,6) name = value type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_s_005fsubmit_005f0.setValue("Create Character");
     int _jspx_eval_s_005fsubmit_005f0 = _jspx_th_s_005fsubmit_005f0.doStartTag();
     if (_jspx_th_s_005fsubmit_005f0.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
@@ -222,15 +280,15 @@ static {
     return false;
   }
 
-  private boolean _jspx_meth_s_005flink_005f0(PageContext _jspx_page_context)
+  private boolean _jspx_meth_s_005flink_005f0(javax.servlet.jsp.tagext.JspTag _jspx_th_tiles_005fput_005f1, PageContext _jspx_page_context)
           throws Throwable {
     PageContext pageContext = _jspx_page_context;
     JspWriter out = _jspx_page_context.getOut();
     //  s:link
     org.seasar.struts.taglib.S2LinkTag _jspx_th_s_005flink_005f0 = (org.seasar.struts.taglib.S2LinkTag) _005fjspx_005ftagPool_005fs_005flink_0026_005fhref.get(org.seasar.struts.taglib.S2LinkTag.class);
     _jspx_th_s_005flink_005f0.setPageContext(_jspx_page_context);
-    _jspx_th_s_005flink_005f0.setParent(null);
-    // /WEB-INF/view/index.jsp(40,8) name = href type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_s_005flink_005f0.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_tiles_005fput_005f1);
+    // /WEB-INF/view/index.jsp(30,8) name = href type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_s_005flink_005f0.setHref("sheetList/");
     int _jspx_eval_s_005flink_005f0 = _jspx_th_s_005flink_005f0.doStartTag();
     if (_jspx_eval_s_005flink_005f0 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {

@@ -41,6 +41,11 @@ public class CreateForm {
 	public String maxHonor;
 	public String otherItems;
 	public String money;
+	public String exp;
+
+
+	// 武器所持数。3を超えたらリストはループで個数分＋１表示
+	public String armsCount;
 
 	public WeaponDto[] weaponList;
 }

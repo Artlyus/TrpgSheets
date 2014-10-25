@@ -1,16 +1,6 @@
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>TRPG Character Sheets for Sword World 2.0</title>
-<link rel="stylesheet" type="text/css" href="${f:url('/css/common.css')}" />
-</head>
-<body>
-<div id="container">
-	<div id="page">
-		<div id="header">
-			<h1 class="siteTitle">TRPG Character Sheets</h1>
-			<p class="catch"><strong> for Sword World 2.0</strong></p>
-		</div>
+<tiles:insert template="/WEB-INF/view/common/layout.jsp" flush="true">
+	<tiles:put name="title" value="TRPG Character Sheets" />
+	<tiles:put name="content" type="string">
 		<div id="content">
 			<div id="main">
 				<div class="section emphasis">
@@ -40,34 +30,5 @@
 					<p><s:link href="sheetList/">Character List</s:link>.</p>
 				</div>
 			</div>
-			<div id="nav">
-				<div class="section emphasis">
-					<div class="heading">
-						<h2>キャラシート一覧</h2>
-					</div>
-						<p>Character 01</p>
-				</div>
-				<div class="section emphasis">
-					<div class="heading">
-						<h2>セッションログ</h2>
-					</div>
-						<p>test session 01</p>
-						<p>test session 02</p>
-				</div>
-				<div class="section emphasis">
-					<div class="heading">
-						<h2>リプレイ一覧</h2>
-					</div>
-					<p>sample</p>
-					<p>sample</p>
-				</div>
-			</div>
-			<hr class="clear">
-		</div>
-		<div id="footer">
-			<address>Copyright(C)2014 Artlyus.All Rights Reserved.</address>
-		</div>
-	</div>
-</div>
-</body>
-</html>
+		</tiles:put>
+</tiles:insert>
