@@ -17,16 +17,10 @@ package trpgsheets.action;
 
 import org.seasar.struts.annotation.Execute;
 
-public class IndexAction {
+public class SheetListAction {
 
     @Execute(validator = false)
 	public String index() {
-        return "index.jsp";
+        return "list.jsp";
 	}
-
-    @Execute(validator = false)
-    public String login(){
-    	return "create.jsp";
-    }
-
 }
