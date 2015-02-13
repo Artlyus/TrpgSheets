@@ -1,0 +1,6 @@
+INSERT INTO CHARACTER_SHEET(
+	CHARACTER_NAME, PLAYER_NAME
+)VALUES(
+	/*characterName*/'00001',
+	/*playerName*/'00001'
+)
