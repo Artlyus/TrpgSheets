@@ -15,12 +15,29 @@
  */
 package trpgsheets.action;
 
+import java.util.List;
+
+import javax.annotation.Resource;
+
+import org.seasar.extension.jdbc.JdbcManager;
 import org.seasar.struts.annotation.Execute;
+
+import trpgsheets.entity.CharacterSheet;
 
 public class SheetListAction {
 
+	@Resource
+	public JdbcManager jdbcManager;
+
+	public List<CharacterSheet> csList;
+
     @Execute(validator = false)
 	public String index() {
+    	csList = jdbcManager.from(CharacterSheet.class)
+    			.orderBy("characterId")
+    			.getResultList();
+
+    	System.out.print("test");
         return "list.jsp";
 	}
 }

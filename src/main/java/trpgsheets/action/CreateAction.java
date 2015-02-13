@@ -35,8 +35,9 @@ public class CreateAction {
 	public CreateForm createForm;
 
 	@Resource
-	JdbcManager jdbcManager;
+	public JdbcManager jdbcManager;
 
+	public CharacterSheet cs;
 
     @Execute(validator = false)
 	public String index() {
@@ -58,8 +59,12 @@ public class CreateAction {
     	return "complete?redirect=true";
     }
 
-    @Execute(validator = false)
+    @Execute(validator = false, urlPattern="edit/{characterId}")
     public String edit(){
+    	cs = jdbcManager.from(CharacterSheet.class)
+        		.where("characterId = ?", createForm.characterId)
+    			.getSingleResult();
+
     	return "edit.jsp";
     }
 

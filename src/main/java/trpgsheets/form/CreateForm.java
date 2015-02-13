@@ -4,6 +4,8 @@ import org.seasar.struts.annotation.Required;
 
 public class CreateForm {
 
+	public int characterId;
+
 	@Required
 	public String characterName;
 
