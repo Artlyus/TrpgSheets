@@ -9,9 +9,7 @@
 					</div>
 					<p>This site will be used by users as wanna be writer.</p>
 					<p>If you are that so, push below button and create your character.</p>
-					<s:form>
-						<s:submit property="login" value="Create Character" />
-					</s:form>
+					<s:link href="/create/index">キャラクター作成</s:link><BR>
 				</div>
 				<div class="section normal update">
 					<div class="heading">

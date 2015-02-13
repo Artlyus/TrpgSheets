@@ -26,7 +26,7 @@ public class IndexAction {
 
     @Execute(validator = false)
     public String login(){
-    	return "create.jsp";
+    	return "create";
     }
 
 }

@@ -15,9 +15,28 @@
  */
 package trpgsheets.action;
 
+import javax.annotation.Resource;
+
+import org.seasar.extension.jdbc.JdbcManager;
+import org.seasar.framework.beans.util.Beans;
+import org.seasar.struts.annotation.ActionForm;
 import org.seasar.struts.annotation.Execute;
 
+import trpgsheets.entity.CharacterSheet;
+import trpgsheets.form.CreateForm;
+import trpgsheets.service.CharacterSheetService;
+
 public class CreateAction {
+
+	@Resource
+	public CharacterSheetService characterSheetService;
+
+	@ActionForm
+	public CreateForm createForm;
+
+	@Resource
+	JdbcManager jdbcManager;
+
 
     @Execute(validator = false)
 	public String index() {
@@ -26,11 +45,26 @@ public class CreateAction {
 
     @Execute(validator = false)
     public String doCreate(){
-    	return "edit?redirect=true";
+    	CharacterSheet characterSheet = new CharacterSheet();
+    	Beans.copy(createForm, characterSheet).execute();
+    	//characterSheet.playerName = "Artlyus";
+
+    	int result = 0;
+    	//result = characterSheetService.insertCharacterSheet(characterSheet);
+    	result = jdbcManager.updateBySqlFile("data/insertCS.sql", characterSheet).execute();
+
+    	System.out.print("*****RESULT : " + result + "*****");
+
+    	return "complete?redirect=true";
     }
 
     @Execute(validator = false)
     public String edit(){
     	return "edit.jsp";
+    }
+
+    @Execute(validator = false)
+    public String complete(){
+    	return "complete.jsp";
     }
 }

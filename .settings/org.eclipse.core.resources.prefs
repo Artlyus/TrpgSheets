@@ -1,7 +1,6 @@
-#Sat Oct 25 14:51:29 GMT+09:00 2014
 eclipse.preferences.version=1
 encoding//src/main/webapp/WEB-INF/view/common/menu.jsp=UTF-8
-encoding//src/main/webapp/WEB-INF/view/create.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/view/create/create.jsp=UTF-8
 encoding//src/main/webapp/WEB-INF/view/index.jsp=UTF-8
 encoding//src/main/webapp/WEB-INF/view/sheetList/list.jsp=UTF-8
 encoding/<project>=UTF-8

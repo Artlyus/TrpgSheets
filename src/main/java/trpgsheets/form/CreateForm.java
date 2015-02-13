@@ -1,7 +1,6 @@
 package trpgsheets.form;
 
 import org.seasar.struts.annotation.Required;
-import trpgsheets.dto.WeaponDto;
 
 public class CreateForm {
 
@@ -9,6 +8,7 @@ public class CreateForm {
 	public String characterName;
 
 	public String playerName;
+	/*
 	public String race;
 	public String sex;
 	public String age;
@@ -48,4 +48,5 @@ public class CreateForm {
 	public String armsCount;
 
 	public WeaponDto[] weaponList;
+	*/
 }
