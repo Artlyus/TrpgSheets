@@ -15,14 +15,45 @@ public class CreateForm {
 	public String age;
 	public String history;
 	public String raceSpecial;
+	public String note;
 
-	// 能力値
+	// 個体値
+	public String sta;
+	public String stb;
+	public String stc;
+	public String std;
+	public String ste;
+	public String stf;
+
+	// rはraceの略
+	public String rtech;
+	public String rvit;
+	public String rmen;
+
+	// 成長値
+	public String upDex;
+	public String upAgi;
+	public String upStr;
+	public String upVit;
+	public String upItl;
+	public String upMen;
+
+	// 合計値
 	public String dex;
 	public String agi;
 	public String str;
 	public String vit;
 	public String itl;
 	public String men;
+
+	// ボーナス
+	public String bonusDex;
+	public String bonusAgi;
+	public String bonusStr;
+	public String bonusVit;
+	public String bonusItl;
+	public String bonusMen;
+
 	public String lifeRegist;
 	public String mentalRegist;
 	public String hp;
@@ -484,8 +515,10 @@ public class CreateForm {
 	// その他
 	public String currentHonor;
 	public String maxHonor;
+	public String exp;
+	public String totalExp;
 	public String otherItems;
 	public String money;
-	public String exp;
+	public String memo;
 
 }

@@ -16,6 +16,7 @@
 		<tr><td>年齢</td><td>：<html:text property="age" value=""></html:text></td></tr>
 		<tr><td>生まれ</td><td>：<html:text property="history" value=""></html:text></td></tr>
 		<tr><td>種族特徴</td><td>：<html:text property="raceSpecial" value=""></html:text></td></tr>
+		<tr valign="top"><td>経歴</td><td>：<html:textarea rows="4" cols="50" property="note" /></td></tr>
 	</table>
 </div>
 
@@ -23,18 +24,61 @@
 	<div class="heading">
 		<h2>能力値</h2>
 	</div>
+	<table border="1">
+		<tr align="center"><td>能力値</td><td>個体値</td><td>種族値</td><td>成長</td><td>合計</td><td>ボーナス</td></tr>
+		<tr align="center">
+			<td>器用度</td>
+			<td>A：<html:text property="sta" value="" size="2" /></td>
+			<td rowspan="2">技：<html:text property="rtech" value="" size="2" /></td>
+			<td><html:text property="upDex" value="" size="2" /></td>
+			<td><html:text property="dex" value="" size="2" /></td>
+			<td><html:text property="bonusDex" value="" size="2" /></td>
+		</tr>
+		<tr align="center">
+			<td>敏捷度</td>
+			<td>B：<html:text property="stb" value="" size="2" /></td>
+			<td><html:text property="upAgi" value="" size="2" /></td>
+			<td><html:text property="agi" value="" size="2" /></td>
+			<td><html:text property="bonuxAgi" value="" size="2" /></td>
+		</tr>
+		<tr align="center">
+			<td>筋　力</td>
+			<td>C：<html:text property="stc" value="" size="2" /></td>
+			<td rowspan="2">体：<html:text property="rvit" value="" size="2" /></td>
+			<td><html:text property="upStr" value="" size="2" /></td>
+			<td><html:text property="str" value="" size="2" /></td>
+			<td><html:text property="bonusStr" value="" size="2" /></td>
+		</tr>
+		<tr align="center">
+			<td>生命力</td>
+			<td>D：<html:text property="std" value="" size="2" /></td>
+			<td><html:text property="upVit" value="" size="2" /></td>
+			<td><html:text property="vit" value="" size="2" /></td>
+			<td><html:text property="bonusVit" value="" size="2" /></td>
+		</tr>
+		<tr align="center">
+			<td>知　力</td>
+			<td>E：<html:text property="ste" value="" size="2" /></td>
+			<td rowspan="2">心：<html:text property="rmen" value="" size="2" /></td>
+			<td><html:text property="upItl" value="" size="2" /></td>
+			<td><html:text property="itl" value="" size="2" /></td>
+			<td><html:text property="bonusItl" value="" size="2" /></td>
+		</tr>
+		<tr align="center">
+			<td>精神力</td>
+			<td>F：<html:text property="stf" value="" size="2" /></td>
+			<td><html:text property="upMen" value="" size="2" /></td>
+			<td><html:text property="men" value="" size="2" /></td>
+			<td><html:text property="bonusMen" value="" size="2" /></td>
+		</tr>
+	</table>
+	<BR>
 	<table>
-		<tr><td>器用度</td><td>：<html:text property="dex" value=""></html:text></td></tr>
-		<tr><td>敏捷度</td><td>：<html:text property="agi" value=""></html:text></td></tr>
-		<tr><td>筋力</td><td>：<html:text property="str" value=""></html:text></td></tr>
-		<tr><td>生命力</td><td>：<html:text property="vit" value=""></html:text></td></tr>
-		<tr><td>知力</td><td>：<html:text property="itl" value=""></html:text></td></tr>
-		<tr><td>精神力</td><td>：<html:text property="men" value=""></html:text></td></tr>
-		<tr><td>生命抵抗力</td><td>：<html:text property="lifeRegist" value=""></html:text></td></tr>
-		<tr><td>精神抵抗力</td><td>：<html:text property="mentalRegist" value=""></html:text></td></tr>
-		<tr><td>HP</td><td>：<html:text property="hp" value=""></html:text></td></tr>
-		<tr><td>MP</td><td>：<html:text property="mp" value=""></html:text></td></tr>
-		<tr><td>冒険者レベル</td><td>：<html:text property="advLevel" value=""></html:text></td></tr>
+		<tr><td>冒険者レベル</td><td>：<html:text property="advLevel" value="" size="2"></html:text></td></tr>
+		<tr><td>生命抵抗力</td><td>：<html:text property="lifeRegist" value="" size="2"></html:text></td><td>※生命力ボーナス＋冒険者レベル</td></tr>
+		<tr><td>精神抵抗力</td><td>：<html:text property="mentalRegist" value="" size="2"></html:text></td><td>※精神力ボーナス＋冒険者レベル</td></tr>
+		<tr><td>HP</td><td>：<html:text property="hp" value="" size="2"></html:text></td><td>※生命力＋冒険者レベルｘ３</td></tr>
+		<tr><td>MP</td><td>：<html:text property="mp" value="" size="2"></html:text></td><td>※精神力＋魔法使い系技能レベル合計ｘ３</td></tr>
 	</table>
 </div>
 <div class="section normal">
@@ -980,9 +1024,16 @@
 <B>名誉点</B><BR>
 所持/合計：<html:text property="currentHonor" value="" size="5"></html:text>/<html:text property="maxHonor" value="" size="5"></html:text><BR>
 <BR>
+<B>経験点</B><BR>
+残/合計：<html:text property="exp" value="" size="7" />/<html:text property="totalExp" value="" size="7" />
+<BR><BR>
 所持金：<html:text property="money" value="" size="7"></html:text><BR>
 <BR>
-経験点：<html:text property="exp" value="" size="7"></html:text>
+<table>
+	<tr valign="top">
+		<td>その他：</td>
+		<td><html:textarea rows="4" cols="60" property="memo" /></td>
+</table>
 </div>
 <s:submit property="doCreate" value="Create" />
 </s:form>
