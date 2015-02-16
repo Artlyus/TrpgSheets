@@ -48,13 +48,9 @@ public class CreateAction {
     public String doCreate(){
     	CharacterSheet characterSheet = new CharacterSheet();
     	Beans.copy(createForm, characterSheet).execute();
-    	//characterSheet.playerName = "Artlyus";
 
     	int result = 0;
-    	//result = characterSheetService.insertCharacterSheet(characterSheet);
     	result = jdbcManager.updateBySqlFile("data/insertCS.sql", characterSheet).execute();
-
-    	System.out.print("*****RESULT : " + result + "*****");
 
     	return "complete?redirect=true";
     }

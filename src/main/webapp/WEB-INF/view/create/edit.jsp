@@ -18,7 +18,7 @@
 		<tr><td>種族特徴</td><td>：<html:text property="raceSpecial" value=""></html:text></td></tr>
 	</table>
 </div>
-<!--
+
 <div class="section normal">
 	<div class="heading">
 		<h2>能力値</h2>
@@ -310,8 +310,7 @@
 <BR>
 経験点：<html:text property="exp" value="" size="7"></html:text>
 </div>
- -->
-<s:submit property="doCreate" value="Create" />
+<s:submit property="doCreate" value="Edit" />
 </s:form>
 </div>
 </tiles:put>
