@@ -5,10 +5,13 @@
 			<div id="main">
 				<div class="section emphasis">
 					<div class="heading">
-						<p>Welcome.<BR>
+						<p>登録が完了しました。</p>
 					</div>
-					<s:link href="/index">TOP</s:link>
+					<s:link href="/index">TOPへ</s:link>
+					<BR>
+					<s:link href="/create/edit/${characterId}">シート編集画面へ</s:link>
+					<BR>
 				</div>
 			</div>
-		</tiles:put>
+	</tiles:put>
 </tiles:insert>

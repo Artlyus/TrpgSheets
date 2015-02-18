@@ -38,6 +38,7 @@ public class CreateAction {
 	public JdbcManager jdbcManager;
 
 	public CharacterSheet cs;
+	public int characterId;
 
     @Execute(validator = false)
 	public String index() {
@@ -50,7 +51,17 @@ public class CreateAction {
     	Beans.copy(createForm, characterSheet).execute();
 
     	jdbcManager.updateBySqlFile("data/insertCS.sql", characterSheet).execute();
+    	characterId = characterSheet.characterId;
+    	return "complete?redirect=true";
+    }
 
+    @Execute(validator = false)
+    public String doEdit(){
+    	CharacterSheet characterSheet = new CharacterSheet();
+    	Beans.copy(createForm, characterSheet).execute();
+
+    	jdbcManager.updateBySqlFile("data/updateCS.sql", characterSheet).execute();
+    	characterId = characterSheet.characterId;
     	return "complete?redirect=true";
     }
 
@@ -62,6 +73,8 @@ public class CreateAction {
 
     	Beans.copy(cs, createForm).execute();
     	//createForm.Skill01 = true;
+
+
 
     	return "edit.jsp";
     }

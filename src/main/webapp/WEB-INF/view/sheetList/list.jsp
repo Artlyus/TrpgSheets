@@ -14,22 +14,22 @@
 						<h2>検索結果</h2>
 					</div>
 					<table border = "1">
-						<tr>
-							<td>ID</td>
-							<td>Name</td>
-							<td>Player</td>
-							<td>Race</td>
+						<tr align="center">
+							<td width = "30px">ID</td>
+							<td width = "150px">Name</td>
+							<td width = "150px">Player</td>
+							<td width = "100px">Race</td>
 						</tr>
 						<c:forEach items="${csList}" var="list" varStatus="status">
 						<tr>
-							<td><s:link href="/create/edit/${list.characterId}"><c:out value="${list.characterId}" /></s:link></td>
+							<td align="right"><s:link href="/create/edit/${list.characterId}"><c:out value="${list.characterId}" /></s:link></td>
 							<td><c:out value="${list.characterName}" /></td>
 							<td><c:out value="${list.playerName}" /></td>
-							<td>testRace</td>
+							<td><c:out value="${list.race}" /></td>
 						</tr>
 						</c:forEach>
 					</table>
 				</div>
 			</div>
-		</tiles:put>
+	</tiles:put>
 </tiles:insert>

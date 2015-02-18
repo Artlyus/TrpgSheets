@@ -37,7 +37,6 @@ public class SheetListAction {
     			.orderBy("characterId")
     			.getResultList();
 
-    	System.out.print("test");
         return "list.jsp";
 	}
 }

@@ -6,8 +6,9 @@
 <s:form>
 <div class="section normal">
 	<div class="heading">
-		<h2>基本情報<h2>
+		<h2>基本情報</h2>
 	</div>
+	<html:hidden property="characterId"/>
 	<table>
 		<tr><td>キャラクター名(必須)</td><td>：<html:text property="characterName" value="${f:h(cs.characterName)}"></html:text></td></tr>
 		<tr><td>プレイヤー名</td><td>：<html:text property="playerName" value="${f:h(cs.playerName)}"></html:text></td></tr>
@@ -113,7 +114,7 @@
 			<td><html:text property="c1level" value="${f:h(cs.c1level)}" size="2"></html:text></td>
 		</tr>
 		<tr>
-			<td><html:select property="class2" value="技能">
+			<td><html:select property="class2" value="${f:h(cs.class2)}">
 				<html:option value=""></html:option>
 				<html:option value="1">ファイター(戦士)</html:option>
 				<html:option value="2">グラップラー(拳闘士)</html:option>
@@ -132,10 +133,10 @@
 				<html:option value="15">ライダー(騎手)</html:option>
 				</html:select>
 			</td>
-			<td><html:text property="c2level" value="" size="2"></html:text></td>
+			<td><html:text property="c2level" value="${f:h(cs.c2level)}" size="2"></html:text></td>
 		</tr>
 		<tr>
-			<td><html:select property="class3" value="技能">
+			<td><html:select property="class3" value="${f:h(cs.class3)}">
 				<html:option value=""></html:option>
 				<html:option value="1">ファイター(戦士)</html:option>
 				<html:option value="2">グラップラー(拳闘士)</html:option>
@@ -154,10 +155,10 @@
 				<html:option value="15">ライダー(騎手)</html:option>
 				</html:select>
 			</td>
-			<td><html:text property="c3level" value="" size="2"></html:text></td>
+			<td><html:text property="c3level" value="${f:h(cs.c3level)}" size="2"></html:text></td>
 		</tr>
 		<tr>
-			<td><html:select property="class4" value="技能">
+			<td><html:select property="class4" value="${f:h(cs.class4)}">
 				<html:option value=""></html:option>
 				<html:option value="1">ファイター(戦士)</html:option>
 				<html:option value="2">グラップラー(拳闘士)</html:option>
@@ -176,10 +177,10 @@
 				<html:option value="15">ライダー(騎手)</html:option>
 				</html:select>
 			</td>
-			<td><html:text property="c4level" value="" size="2"></html:text></td>
+			<td><html:text property="c4level" value="${f:h(cs.c4level)}" size="2"></html:text></td>
 		</tr>
 		<tr>
-			<td><html:select property="class5" value="技能">
+			<td><html:select property="class5" value="${f:h(cs.class5)}">
 				<html:option value=""></html:option>
 				<html:option value="1">ファイター(戦士)</html:option>
 				<html:option value="2">グラップラー(拳闘士)</html:option>
@@ -198,10 +199,10 @@
 				<html:option value="15">ライダー(騎手)</html:option>
 				</html:select>
 			</td>
-			<td><html:text property="c5level" value="" size="2"></html:text></td>
+			<td><html:text property="c5level" value="${f:h(cs.c5level)}" size="2"></html:text></td>
 		</tr>
 		<tr>
-			<td><html:select property="class6" value="技能">
+			<td><html:select property="class6" value="${f:h(cs.class6)}">
 				<html:option value=""></html:option>
 				<html:option value="1">ファイター(戦士)</html:option>
 				<html:option value="2">グラップラー(拳闘士)</html:option>
@@ -220,7 +221,7 @@
 				<html:option value="15">ライダー(騎手)</html:option>
 				</html:select>
 			</td>
-			<td><html:text property="c6level" value="" size="2"></html:text></td>
+			<td><html:text property="c6level" value="${f:h(cs.c6level)}" size="2"></html:text></td>
 		</tr>
 	</table>
 </div>
@@ -1051,7 +1052,7 @@
 </table>
 <BR>
 その他のアイテム<BR>
-<html:textarea property="otherItems" value="${f:h(cs.otherItems)}" />
+<html:textarea property="otherItems" rows="4" cols="60" value="${f:h(cs.otherItems)}" />
 </div>
 <div class="section normal">
 	<div class="heading">

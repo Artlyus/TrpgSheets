@@ -6,7 +6,7 @@
 <s:form>
 <div class="section normal">
 	<div class="heading">
-		<h2>基本情報<h2>
+		<h2>基本情報</h2>
 	</div>
 	<table>
 		<tr><td>キャラクター名(必須)</td><td>：<html:text property="characterName" value=""></html:text></td></tr>
@@ -1051,7 +1051,7 @@
 </table>
 <BR>
 その他のアイテム<BR>
-<html:textarea property="otherItems" value="" />
+<html:textarea property="otherItems" rows="4" cols="60" value="" />
 </div>
 <div class="section normal">
 	<div class="heading">

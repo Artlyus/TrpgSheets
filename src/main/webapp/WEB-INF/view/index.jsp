@@ -7,16 +7,16 @@
 					<div class="heading">
 						<p>Welcome.<BR>
 					</div>
-					<p>This site will be used by users as wanna be writer.</p>
-					<p>If you are that so, push below button and create your character.</p>
-					<s:link href="/create/index">キャラクター作成</s:link><BR>
+					<p>小説家になろうクラスタ向けキャラシートサイトです。</p>
+					<p>現在はソード・ワールド2.0　ルールブックⅠ～Ⅲのみ対応です。</p>
+					<s:link href="/create/index">キャラクター作成</s:link><BR><BR>
 				</div>
 				<div class="section normal update">
 					<div class="heading">
 						<h2>更新内容</h2>
 					</div>
 					<dl class="clearFix">
-						<dt>2014/10/25</dt>
+						<dt>2015/2/18</dt>
 						<dd>サイト新規構築</dd>
 					</dl>
 				</div>
@@ -24,9 +24,8 @@
 					<div class="heading">
 						<h2>キャラクター作成済みのプレイヤーへ</h2>
 					</div>
-					<p>If you already have any characters, please check character list.</p>
-					<p><s:link href="sheetList/">Character List</s:link>.</p>
+					<p>作成済みシートの検索は<s:link href="sheetList/">キャラクターシート一覧</s:link>から。</p>
 				</div>
 			</div>
-		</tiles:put>
+	</tiles:put>
 </tiles:insert>
