@@ -39,7 +39,7 @@
 			<td>B：<html:text property="stb" value="" size="2" /></td>
 			<td><html:text property="upAgi" value="" size="2" /></td>
 			<td><html:text property="agi" value="" size="2" /></td>
-			<td><html:text property="bonuxAgi" value="" size="2" /></td>
+			<td><html:text property="bonusAgi" value="" size="2" /></td>
 		</tr>
 		<tr align="center">
 			<td>筋　力</td>
@@ -231,7 +231,7 @@
 	<p>選択取得</p>
 	<table border="1">
 		<tr align="center">
-			<td>回避行動</td><td><html:checkbox property="Skill01" /></td>
+			<td>回避行動</td><td><html:checkbox property="Skill01" value="1"/></td>
 			<td>頑強</td><td><html:checkbox property="Skill02" /></td>
 			<td>精密射撃</td><td><html:checkbox property="Skill03" /></td>
 		</tr>
@@ -893,27 +893,63 @@
 		<td>C値</td>
 		<td>追加値</td>
 	</tr>
-<c:forEach begin="0" end="5" var="i">
 	<tr align="center">
-		<td rowspan="2"><html:text property="weaponList[i].weaponName" value=""></html:text></td>
+		<td rowspan="2"><html:text property="wp1name" value=""></html:text></td>
 		<td rowspan="2">
-			<html:select property="weaponList[i].hands" value="片両">
+			<html:select property="wp1hands" value="片両">
 			<html:option value=""></html:option>
 			<html:option value="1">１Ｈ</html:option>
 			<html:option value="2">２Ｈ</html:option>
 			</html:select>
 		</td>
-		<td><html:text property="weaponList[i].needStr" value="" size="2"></html:text></td>
-		<td><html:text property="weaponList[i].hitCorrect" value="" size="2"></html:text></td>
-		<td><html:text property="weaponList[i].hit" value="" size="2"></html:text></td>
-		<td rowspan="2"><html:textarea property="weaponList[i].memo" value=""></html:textarea></td>
+		<td><html:text property="wp1needStr" value="" size="2"></html:text></td>
+		<td><html:text property="wp1hitCorrect" value="" size="2"></html:text></td>
+		<td><html:text property="wp1hit" value="" size="2"></html:text></td>
+		<td rowspan="2"><html:textarea property="wp1memo" value=""></html:textarea></td>
 	</tr>
 	<tr align="center">
-		<td><html:text property="weaponList[i].power" value="" size="3"></html:text></td>
-		<td><html:text property="weaponList[i].critical" value="" size="2"></html:text></td>
-		<td><html:text property="weaponList[i].chaseDamage" value="" size="2"></html:text></td>
+		<td><html:text property="wp1power" value="" size="3"></html:text></td>
+		<td><html:text property="wp1critical" value="" size="2"></html:text></td>
+		<td><html:text property="wp1chaseDamage" value="" size="2"></html:text></td>
 	</tr>
-</c:forEach>
+	<tr align="center">
+		<td rowspan="2"><html:text property="wp2name" value=""></html:text></td>
+		<td rowspan="2">
+			<html:select property="wp2hands" value="片両">
+			<html:option value=""></html:option>
+			<html:option value="1">１Ｈ</html:option>
+			<html:option value="2">２Ｈ</html:option>
+			</html:select>
+		</td>
+		<td><html:text property="wp2needStr" value="" size="2"></html:text></td>
+		<td><html:text property="wp2hitCorrect" value="" size="2"></html:text></td>
+		<td><html:text property="wp2hit" value="" size="2"></html:text></td>
+		<td rowspan="2"><html:textarea property="wp2memo" value=""></html:textarea></td>
+	</tr>
+	<tr align="center">
+		<td><html:text property="wp2power" value="" size="3"></html:text></td>
+		<td><html:text property="wp2critical" value="" size="2"></html:text></td>
+		<td><html:text property="wp2chaseDamage" value="" size="2"></html:text></td>
+	</tr>
+	<tr align="center">
+		<td rowspan="2"><html:text property="wp3name" value=""></html:text></td>
+		<td rowspan="2">
+			<html:select property="wp3hands" value="片両">
+			<html:option value=""></html:option>
+			<html:option value="1">１Ｈ</html:option>
+			<html:option value="2">２Ｈ</html:option>
+			</html:select>
+		</td>
+		<td><html:text property="wp3needStr" value="" size="2"></html:text></td>
+		<td><html:text property="wp3hitCorrect" value="" size="2"></html:text></td>
+		<td><html:text property="wp3hit" value="" size="2"></html:text></td>
+		<td rowspan="2"><html:textarea property="wp3memo" value=""></html:textarea></td>
+	</tr>
+	<tr align="center">
+		<td><html:text property="wp3power" value="" size="3"></html:text></td>
+		<td><html:text property="wp3critical" value="" size="2"></html:text></td>
+		<td><html:text property="wp3chaseDamage" value="" size="2"></html:text></td>
+	</tr>
 </table>
 </div>
 <div class="section normal">
