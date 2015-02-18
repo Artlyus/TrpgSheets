@@ -60,7 +60,8 @@ public class CreateAction {
         		.where("characterId = ?", createForm.characterId)
     			.getSingleResult();
 
-    	createForm.Skill01 = true;
+    	Beans.copy(cs, createForm).execute();
+    	//createForm.Skill01 = true;
 
     	return "edit.jsp";
     }

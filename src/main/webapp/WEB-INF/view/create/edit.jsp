@@ -246,83 +246,83 @@
 			<td>二刀流</td><td><html:checkbox property="Skill09"/></td>
 		</tr>
 		<tr align="center">
-			<td>武器習熟</td><td><html:checkbox property="Skill10"  value="${f:h(cs.skill10)}"/></td>
-			<td>武器習熟Ⅱ</td><td><html:checkbox property="Skill11"  value="${f:h(cs.skill11)}"/></td>
-			<td>踏みつけ</td><td><html:checkbox property="Skill12"  value="${f:h(cs.skill12)}"/></td>
+			<td>武器習熟</td><td><html:checkbox property="Skill10"/></td>
+			<td>武器習熟Ⅱ</td><td><html:checkbox property="Skill11"/></td>
+			<td>踏みつけ</td><td><html:checkbox property="Skill12"/></td>
 		</tr>
 		<tr align="center">
-			<td>ブロッキング</td><td><html:checkbox property="Skill13"  value="${f:h(cs.skill13)}"/></td>
-			<td>防具習熟</td><td><html:checkbox property="Skill14"  value="${f:h(cs.skill14)}"/></td>
-			<td>防具習熟Ⅱ</td><td><html:checkbox property="Skill15"  value="${f:h(cs.skill15)}"/></td>
+			<td>ブロッキング</td><td><html:checkbox property="Skill13"/></td>
+			<td>防具習熟</td><td><html:checkbox property="Skill14"/></td>
+			<td>防具習熟Ⅱ</td><td><html:checkbox property="Skill15"/></td>
 		</tr>
 		<tr align="center">
-			<td>魔法制御</td><td><html:checkbox property="Skill16"  value="${f:h(cs.skill16)}"/></td>
-			<td>魔法誘導</td><td><html:checkbox property="Skill17"  value="${f:h(cs.skill17)}"/></td>
-			<td>両手利き</td><td><html:checkbox property="Skill18"  value="${f:h(cs.skill18)}"/></td>
+			<td>魔法制御</td><td><html:checkbox property="Skill16"/></td>
+			<td>魔法誘導</td><td><html:checkbox property="Skill17"/></td>
+			<td>両手利き</td><td><html:checkbox property="Skill18"/></td>
 		</tr>
 		<tr align="center">
-			<td>MP軽減</td><td><html:checkbox property="Skill19"  value="${f:h(cs.skill19)}"/></td>
-			<td>かばう</td><td><html:checkbox property="Skill20"  value="${f:h(cs.skill20)}"/></td>
-			<td>牽制攻撃</td><td><html:checkbox property="Skill21"  value="${f:h(cs.skill21)}"/></td>
+			<td>MP軽減</td><td><html:checkbox property="Skill19"/></td>
+			<td>かばう</td><td><html:checkbox property="Skill20"/></td>
+			<td>牽制攻撃</td><td><html:checkbox property="Skill21"/></td>
 		</tr>
 		<tr align="center">
-			<td>牽制攻撃Ⅱ</td><td><html:checkbox property="Skill22"  value="${f:h(cs.skill22)}"/></td>
-			<td>全力攻撃</td><td><html:checkbox property="Skill23"  value="${f:h(cs.skill23)}"/></td>
-			<td>挑発攻撃</td><td><html:checkbox property="Skill24"  value="${f:h(cs.skill24)}"/></td>
+			<td>牽制攻撃Ⅱ</td><td><html:checkbox property="Skill22"/></td>
+			<td>全力攻撃</td><td><html:checkbox property="Skill23"/></td>
+			<td>挑発攻撃</td><td><html:checkbox property="Skill24"/></td>
 		</tr>
 		<tr align="center">
-			<td>必殺攻撃</td><td><html:checkbox property="Skill25"  value="${f:h(cs.skill25)}"/></td>
-			<td>魔法拡大/確実化</td><td><html:checkbox property="Skill26"  value="${f:h(cs.skill26)}"/></td>
-			<td>魔法拡大/数</td><td><html:checkbox property="Skill27"  value="${f:h(cs.skill27)}"/></td>
+			<td>必殺攻撃</td><td><html:checkbox property="Skill25"/></td>
+			<td>魔法拡大/確実化</td><td><html:checkbox property="Skill26"/></td>
+			<td>魔法拡大/数</td><td><html:checkbox property="Skill27"/></td>
 		</tr>
 		<tr align="center">
-			<td>魔法拡大/距離</td><td><html:checkbox property="Skill28"  value="${f:h(cs.skill28)}"/></td>
-			<td>魔法拡大/時間</td><td><html:checkbox property="Skill29"  value="${f:h(cs.skill29)}"/></td>
-			<td>魔法拡大/範囲</td><td><html:checkbox property="Skill30"  value="${f:h(cs.skill30)}"/></td>
+			<td>魔法拡大/距離</td><td><html:checkbox property="Skill28"/></td>
+			<td>魔法拡大/時間</td><td><html:checkbox property="Skill29"/></td>
+			<td>魔法拡大/範囲</td><td><html:checkbox property="Skill30"/></td>
 		</tr>
 		<tr align="center">
-			<td>魔法収束</td><td><html:checkbox property="Skill31"  value="${f:h(cs.skill31)}"/></td>
-			<td>魔力撃</td><td><html:checkbox property="Skill32"  value="${f:h(cs.skill32)}"/></td>
-			<td>足さばき</td><td><html:checkbox property="Skill33"  value="${f:h(cs.skill33)}"/></td>
+			<td>魔法収束</td><td><html:checkbox property="Skill31"/></td>
+			<td>魔力撃</td><td><html:checkbox property="Skill32"/></td>
+			<td>足さばき</td><td><html:checkbox property="Skill33"/></td>
 		</tr>
 		<tr align="center">
-			<td>頑強Ⅱ</td><td><html:checkbox property="Skill34"  value="${f:h(cs.skill34)}"/></td>
-			<td>射手の体術</td><td><html:checkbox property="Skill35"  value="${f:h(cs.skill35)}"/></td>
-			<td>鋭い目</td><td><html:checkbox property="Skill36"  value="${f:h(cs.skill36)}"/></td>
+			<td>頑強Ⅱ</td><td><html:checkbox property="Skill34"/></td>
+			<td>射手の体術</td><td><html:checkbox property="Skill35"/></td>
+			<td>鋭い目</td><td><html:checkbox property="Skill36"/></td>
 		</tr>
 		<tr align="center">
-			<td>ハーモニー</td><td><html:checkbox property="Skill37"  value="${f:h(cs.skill37)}"/></td>
-			<td>魔力強化</td><td><html:checkbox property="Skill38"  value="${f:h(cs.skill38)}"/></td>
-			<td>命中強化</td><td><html:checkbox property="Skill39"  value="${f:h(cs.skill39)}"/></td>
+			<td>ハーモニー</td><td><html:checkbox property="Skill37"/></td>
+			<td>魔力強化</td><td><html:checkbox property="Skill38"/></td>
+			<td>命中強化</td><td><html:checkbox property="Skill39"/></td>
 		</tr>
 		<tr align="center">
-			<td>練体の極意</td><td><html:checkbox property="Skill40"  value="${f:h(cs.skill40)}"/></td>
-			<td>ワードブレイク</td><td><html:checkbox property="Skill41"  value="${f:h(cs.skill41)}"/></td>
-			<td>牽制攻撃Ⅲ</td><td><html:checkbox property="Skill42"  value="${f:h(cs.skill42)}"/></td>
+			<td>練体の極意</td><td><html:checkbox property="Skill40"/></td>
+			<td>ワードブレイク</td><td><html:checkbox property="Skill41"/></td>
+			<td>牽制攻撃Ⅲ</td><td><html:checkbox property="Skill42"/></td>
 		</tr>
 		<tr align="center">
-			<td>全力攻撃Ⅱ</td><td><html:checkbox property="Skill43"  value="${f:h(cs.skill43)}"/></td>
-			<td>テイルスイング</td><td><html:checkbox property="Skill44"  value="${f:h(cs.skill44)}"/></td>
-			<td>マルチアクション</td><td><html:checkbox property="Skill45"  value="${f:h(cs.skill45)}"/></td>
+			<td>全力攻撃Ⅱ</td><td><html:checkbox property="Skill43"/></td>
+			<td>テイルスイング</td><td><html:checkbox property="Skill44"/></td>
+			<td>マルチアクション</td><td><html:checkbox property="Skill45"/></td>
 		</tr>
 		<tr align="center">
-			<td>ガーディアン</td><td><html:checkbox property="Skill46"  value="${f:h(cs.skill46)}"/></td>
-			<td>キャパシティ</td><td><html:checkbox property="Skill47"  value="${f:h(cs.skill47)}"/></td>
-			<td>武器の達人</td><td><html:checkbox property="Skill48"  value="${f:h(cs.skill48)}"/></td>
+			<td>ガーディアン</td><td><html:checkbox property="Skill46"/></td>
+			<td>キャパシティ</td><td><html:checkbox property="Skill47"/></td>
+			<td>武器の達人</td><td><html:checkbox property="Skill48"/></td>
 		</tr>
 		<tr align="center">
-			<td>防具の達人</td><td><html:checkbox property="Skill49"  value="${f:h(cs.skill49)}"/></td>
-			<td>魔力撃強化</td><td><html:checkbox property="Skill50"  value="${f:h(cs.skill50)}"/></td>
-			<td>命中強化Ⅱ</td><td><html:checkbox property="Skill51"  value="${f:h(cs.skill51)}"/></td>
+			<td>防具の達人</td><td><html:checkbox property="Skill49"/></td>
+			<td>魔力撃強化</td><td><html:checkbox property="Skill50"/></td>
+			<td>命中強化Ⅱ</td><td><html:checkbox property="Skill51"/></td>
 		</tr>
 		<tr align="center">
-			<td>インファイト</td><td><html:checkbox property="Skill52"  value="${f:h(cs.skill52)}"/></td>
-			<td>影矢</td><td><html:checkbox property="Skill53"  value="${f:h(cs.skill52)}"/></td>
-			<td>牙折り</td><td><html:checkbox property="Skill54"  value="${f:h(cs.skill53)}"/></td>
+			<td>インファイト</td><td><html:checkbox property="Skill52"/></td>
+			<td>影矢</td><td><html:checkbox property="Skill53"/></td>
+			<td>牙折り</td><td><html:checkbox property="Skill54"/></td>
 		</tr>
 		<tr align="center">
-			<td>飛び蹴り</td><td><html:checkbox property="Skill55"  value="${f:h(cs.skill54)}"/></td>
-			<td>薙ぎ払い</td><td><html:checkbox property="Skill56"  value="${f:h(cs.skill55)}"/></td>
+			<td>飛び蹴り</td><td><html:checkbox property="Skill55"/></td>
+			<td>薙ぎ払い</td><td><html:checkbox property="Skill56"/></td>
 		</tr>
 	</table>
 	<br>
@@ -332,61 +332,61 @@
 				<td colspan="12">グラップラー</td>
 			</tr>
 			<tr align="center">
-				<td>Lv.1</td><td colspan="4">追加攻撃</td><td><html:checkbox property="Skill57"  value="${f:h(cs.skill57)}"/></td>
-				<td>Lv.1</td><td colspan="4">投げ攻撃</td><td><html:checkbox property="Skill58"  value="${f:h(cs.skill58)}"/></td>
+				<td>Lv.1</td><td colspan="4">追加攻撃</td><td><html:checkbox property="Skill57"/></td>
+				<td>Lv.1</td><td colspan="4">投げ攻撃</td><td><html:checkbox property="Skill58"/></td>
 			</tr>
 			<tr align="center">
-				<td>Lv.7</td><td colspan="4">カウンター</td><td><html:checkbox property="Skill59"  value="${f:h(cs.skill59)}"/></td>
-				<td>Lv.13</td><td colspan="4">バトルマスター</td><td><html:checkbox property="Skill60"  value="${f:h(cs.skill60)}"/></td>
+				<td>Lv.7</td><td colspan="4">カウンター</td><td><html:checkbox property="Skill59"/></td>
+				<td>Lv.13</td><td colspan="4">バトルマスター</td><td><html:checkbox property="Skill60"/></td>
 			</tr>
 			<tr align="center">
 				<td colspan="12">ファイター</td>
 			</tr>
 			<tr align="center">
-				<td>Lv.7</td><td colspan="4">タフネス</td><td><html:checkbox property="Skill61"  value="${f:h(cs.skill61)}"/></td>
-				<td>Lv.13</td><td colspan="4">バトルマスター</td><td><html:checkbox property="Skill62"  value="${f:h(cs.skill62)}"/></td>
+				<td>Lv.7</td><td colspan="4">タフネス</td><td><html:checkbox property="Skill61"/></td>
+				<td>Lv.13</td><td colspan="4">バトルマスター</td><td><html:checkbox property="Skill62"/></td>
 			</tr>
 			<tr align="center">
 				<td colspan="12">スカウト</td>
 			</tr>
 			<tr align="center">
-				<td>Lv.5</td><td colspan="4">トレジャーハント</td><td><html:checkbox property="Skill63"  value="${f:h(cs.skill63)}"/></td>
-				<td>Lv.7</td><td colspan="4">ファストアクション</td><td><html:checkbox property="Skill64"  value="${f:h(cs.skill64)}"/></td>
+				<td>Lv.5</td><td colspan="4">トレジャーハント</td><td><html:checkbox property="Skill63"/></td>
+				<td>Lv.7</td><td colspan="4">ファストアクション</td><td><html:checkbox property="Skill64"/></td>
 			</tr>
 			<tr align="center">
-				<td>Lv.9</td><td colspan="4">影走り</td><td><html:checkbox property="Skill65"  value="${f:h(cs.skill65)}"/></td>
-				<td>Lv.12</td><td colspan="4">トレジャーマスター</td><td><html:checkbox property="Skill66"  value="${f:h(cs.skill66)}"/></td>
+				<td>Lv.9</td><td colspan="4">影走り</td><td><html:checkbox property="Skill65"/></td>
+				<td>Lv.12</td><td colspan="4">トレジャーマスター</td><td><html:checkbox property="Skill66"/></td>
 			</tr>
 			<tr align="center">
-				<td>Lv.15</td><td colspan="4">匠の技</td><td><html:checkbox property="Skill67"  value="${f:h(cs.skill67)}"/></td>
+				<td>Lv.15</td><td colspan="4">匠の技</td><td><html:checkbox property="Skill67"/></td>
 			</tr>
 			<tr align="center">
 				<td colspan="12">レンジャー</td>
 			</tr>
 			<tr align="center">
-				<td>Lv.5</td><td colspan="4">治癒適正</td><td><html:checkbox property="Skill68"  value="${f:h(cs.skill68)}"/></td>
-				<td>Lv.7</td><td colspan="4">不屈</td><td><html:checkbox property="Skill69"  value="${f:h(cs.skill69)}"/></td>
+				<td>Lv.5</td><td colspan="4">治癒適正</td><td><html:checkbox property="Skill68"/></td>
+				<td>Lv.7</td><td colspan="4">不屈</td><td><html:checkbox property="Skill69"/></td>
 			</tr>
 			<tr align="center">
-				<td>Lv.9</td><td colspan="4">ポーションマスター</td><td><html:checkbox property="Skill70"  value="${f:h(cs.skill70)}"/></td>
-				<td>Lv.12</td><td colspan="4">韋駄天</td><td><html:checkbox property="Skill71"  value="${f:h(cs.skill71)}"/></td>
+				<td>Lv.9</td><td colspan="4">ポーションマスター</td><td><html:checkbox property="Skill70"/></td>
+				<td>Lv.12</td><td colspan="4">韋駄天</td><td><html:checkbox property="Skill71"/></td>
 			</tr>
 			<tr align="center">
-				<td>Lv.15</td><td colspan="4">縮地</td><td><html:checkbox property="Skill72"  value="${f:h(cs.skill72)}"/></td>
+				<td>Lv.15</td><td colspan="4">縮地</td><td><html:checkbox property="Skill72"/></td>
 			</tr>
 			<tr align="center">
 				<td colspan="12">セージ</td>
 			</tr>
 			<tr align="center">
-				<td>Lv.5</td><td colspan="4">鋭い目</td><td><html:checkbox property="Skill73"  value="${f:h(cs.skill73)}"/></td>
-				<td>Lv.7</td><td colspan="4">弱点看破</td><td><html:checkbox property="Skill74"  value="${f:h(cs.skill74)}"/></td>
+				<td>Lv.5</td><td colspan="4">鋭い目</td><td><html:checkbox property="Skill73"/></td>
+				<td>Lv.7</td><td colspan="4">弱点看破</td><td><html:checkbox property="Skill74"/></td>
 			</tr>
 			<tr align="center">
-				<td>Lv.9</td><td colspan="4">マナセーブ</td><td><html:checkbox property="Skill75"  value="${f:h(cs.skill75)}"/></td>
-				<td>Lv.12</td><td colspan="4">マナ耐性</td><td><html:checkbox property="Skill76"  value="${f:h(cs.skill76)}"/></td>
+				<td>Lv.9</td><td colspan="4">マナセーブ</td><td><html:checkbox property="Skill75"/></td>
+				<td>Lv.12</td><td colspan="4">マナ耐性</td><td><html:checkbox property="Skill76"/></td>
 			</tr>
 			<tr align="center">
-				<td>Lv.15</td><td colspan="4">賢人の知恵</td><td><html:checkbox property="Skill77"  value="${f:h(cs.skill77)}"/></td>
+				<td>Lv.15</td><td colspan="4">賢人の知恵</td><td><html:checkbox property="Skill77"/></td>
 			</tr>
 		</table>
 </div>
@@ -406,129 +406,129 @@
 		</tr>
 		<tr>
 			<td>アンチボディ</td>
-			<td><html:checkbox property="Enhance01" value="${f:h(cs.enhance01)}"/></td>
+			<td><html:checkbox property="Enhance01"/></td>
 		</tr>
 		<tr>
 			<td>オウルビジョン</td>
-			<td><html:checkbox property="Enhance02" value="${f:h(cs.enhance02)}"/></td>
+			<td><html:checkbox property="Enhance02"/></td>
 		</tr>
 		<tr>
 			<td>ガゼルフット</td>
-			<td><html:checkbox property="Enhance03" value="${f:h(cs.enhance03)}"/></td>
+			<td><html:checkbox property="Enhance03"/></td>
 		</tr>
 		<tr>
 			<td>キャッツアイ</td>
-			<td><html:checkbox property="Enhance04" value="${f:h(cs.enhance04)}"/></td>
+			<td><html:checkbox property="Enhance04"/></td>
 		</tr>
 		<tr>
 			<td>スケイルレギンス</td>
-			<td><html:checkbox property="Enhance05" value="${f:h(cs.enhance05)}"/></td>
+			<td><html:checkbox property="Enhance05"/></td>
 		</tr>
 		<tr>
 			<td>ストロングブラッド</td>
-			<td><html:checkbox property="Enhance06" value="${f:h(cs.enhance06)}"/></td>
+			<td><html:checkbox property="Enhance06"/></td>
 		</tr>
 		<tr>
 			<td>チックチック</td>
-			<td><html:checkbox property="Enhance07" value="${f:h(cs.enhance07)}"/></td>
+			<td><html:checkbox property="Enhance07"/></td>
 		</tr>
 		<tr>
 			<td>ドラゴンテイル</td>
-			<td><html:checkbox property="Enhance08" value="${f:h(cs.enhance08)}"/></td>
+			<td><html:checkbox property="Enhance08"/></td>
 		</tr>
 		<tr>
 			<td>ビートルスキン</td>
-			<td><html:checkbox property="Enhance09" value="${f:h(cs.enhance09)}"/></td>
+			<td><html:checkbox property="Enhance09"/></td>
 		</tr>
 		<tr>
 			<td>マッスルベアー</td>
-			<td><html:checkbox property="Enhance10" value="${f:h(cs.enhance10)}"/></td>
+			<td><html:checkbox property="Enhance10"/></td>
 		</tr>
 		<tr>
 			<td>メディテーション</td>
-			<td><html:checkbox property="Enhance11" value="${f:h(cs.enhance11)}"/></td>
+			<td><html:checkbox property="Enhance11"/></td>
 		</tr>
 		<tr>
 			<td>ラビットイヤー</td>
-			<td><html:checkbox property="Enhance12" value="${f:h(cs.enhance12)}"/></td>
+			<td><html:checkbox property="Enhance12"/></td>
 		</tr>
 		<tr align="center">
 			<td colspan="2">レベル５から習得可能</td>
 		</tr>
 		<tr>
 			<td>ケンタウロスレッグ</td>
-			<td><html:checkbox property="Enhance13" value="${f:h(cs.enhance13)}"/></td>
+			<td><html:checkbox property="Enhance13"/></td>
 		</tr>
 		<tr>
 			<td>シェイプアニマル</td>
-			<td><html:checkbox property="Enhance14" value="${f:h(cs.enhance14)}"/></td>
+			<td><html:checkbox property="Enhance14"/></td>
 		</tr>
 		<tr>
 			<td>ジャイアントアーム</td>
-			<td><html:checkbox property="Enhance15" value="${f:h(cs.enhance15)}"/></td>
+			<td><html:checkbox property="Enhance15"/></td>
 		</tr>
 		<tr>
 			<td>スフィンクスノレッジ</td>
-			<td><html:checkbox property="Enhance16" value="${f:h(cs.enhance16)}"/></td>
+			<td><html:checkbox property="Enhance16"/></td>
 		</tr>
 		<tr>
 			<td>デーモンフィンガー</td>
-			<td><html:checkbox property="Enhance17" value="${f:h(cs.enhance17)}"/></td>
+			<td><html:checkbox property="Enhance17"/></td>
 		</tr>
 		<tr>
 			<td>ファイアブレス</td>
-			<td><html:checkbox property="Enhance18" value="${f:h(cs.enhance18)}"/></td>
+			<td><html:checkbox property="Enhance18"/></td>
 		</tr>
 		<tr>
 			<td>リカバリィ</td>
-			<td><html:checkbox property="Enhance19" value="${f:h(cs.enhance19)}"/></td>
+			<td><html:checkbox property="Enhance19"/></td>
 		</tr>
 		<tr>
 			<td>ワイドウィング</td>
-			<td><html:checkbox property="Enhance20" value="${f:h(cs.enhance20)}"/></td>
+			<td><html:checkbox property="Enhance20"/></td>
 		</tr>
 		<tr align="center">
 			<td colspan="2">レベル10から習得可能</td>
 		</tr>
 		<tr>
 			<td>カメレオンカムフラージュ</td>
-			<td><html:checkbox property="Enhance21" value="${f:h(cs.enhance21)}"/></td>
+			<td><html:checkbox property="Enhance21"/></td>
 		</tr>
 		<tr>
 			<td>クラーケンスタビリティ</td>
-			<td><html:checkbox property="Enhance22" value="${f:h(cs.enhance22)}"/></td>
+			<td><html:checkbox property="Enhance22"/></td>
 		</tr>
 		<tr>
 			<td>ジィプロフェシー</td>
-			<td><html:checkbox property="Enhance23" value="${f:h(cs.enhance23)}"/></td>
+			<td><html:checkbox property="Enhance23"/></td>
 		</tr>
 		<tr>
 			<td>ストライダーウォーク</td>
-			<td><html:checkbox property="Enhance24" value="${f:h(cs.enhance24)}"/></td>
+			<td><html:checkbox property="Enhance24"/></td>
 		</tr>
 		<tr>
 			<td>スパイダーウェブ</td>
-			<td><html:checkbox property="Enhance25" value="${f:h(cs.enhance25)}"/></td>
+			<td><html:checkbox property="Enhance25"/></td>
 		</tr>
 		<tr>
 			<td>タイタンフット</td>
-			<td><html:checkbox property="Enhance26" value="${f:h(cs.enhance26)}"/></td>
+			<td><html:checkbox property="Enhance26"/></td>
 		</tr>
 		<tr>
 			<td>トロールバイタル</td>
-			<td><html:checkbox property="Enhance27" value="${f:h(cs.enhance27)}"/></td>
+			<td><html:checkbox property="Enhance27"/></td>
 		</tr>
 		<tr>
 			<td>バルーンシードショット</td>
-			<td><html:checkbox property="Enhance28" value="${f:h(cs.enhance28)}"/></td>
+			<td><html:checkbox property="Enhance28"/></td>
 		</tr>
 		<tr>
 			<td>フェンリルバイト</td>
-			<td><html:checkbox property="Enhance29" value="${f:h(cs.enhance29)}"/></td>
+			<td><html:checkbox property="Enhance29"/></td>
 		</tr>
 		<tr>
 			<td>ヘルシーボディ</td>
-			<td><html:checkbox property="Enhance30" value="${f:h(cs.enhance30)}"/></td>
+			<td><html:checkbox property="Enhance30"/></td>
 		</tr>
 	</table>
 	</div>
@@ -545,129 +545,129 @@
 		</tr>
 		<tr>
 			<td>アーリーバード</td>
-			<td><html:checkbox property="Song01" value="${f:h(cs.song01)}"/></td>
+			<td><html:checkbox property="Song01"/></td>
 		</tr>
 		<tr>
 			<td>アンビエント</td>
-			<td><html:checkbox property="Song02" value="${f:h(cs.song02)}"/></td>
+			<td><html:checkbox property="Song02"/></td>
 		</tr>
 		<tr>
 			<td>サモン・スモールアニマル</td>
-			<td><html:checkbox property="Song03" value="${f:h(cs.song03)}"/></td>
+			<td><html:checkbox property="Song03"/></td>
 		</tr>
 		<tr>
 			<td>サモン・フィッシュ</td>
-			<td><html:checkbox property="Song04" value="${f:h(cs.song04)}"/></td>
+			<td><html:checkbox property="Song04"/></td>
 		</tr>
 		<tr>
 			<td>ノイズ</td>
-			<td><html:checkbox property="Song05" value="${f:h(cs.song05)}"/></td>
+			<td><html:checkbox property="Song05"/></td>
 		</tr>
 		<tr>
 			<td>バラード</td>
-			<td><html:checkbox property="Song06" value="${f:h(cs.song06)}"/></td>
+			<td><html:checkbox property="Song06"/></td>
 		</tr>
 		<tr>
 			<td>ヒーリング</td>
-			<td><html:checkbox property="Song07" value="${f:h(cs.song07)}"/></td>
+			<td><html:checkbox property="Song07"/></td>
 		</tr>
 		<tr>
 			<td>ビビッド</td>
-			<td><html:checkbox property="Song08" value="${f:h(cs.song08)}"/></td>
+			<td><html:checkbox property="Song08"/></td>
 		</tr>
 		<tr>
 			<td>モラル</td>
-			<td><html:checkbox property="Song09" value="${f:h(cs.song09)}"/></td>
+			<td><html:checkbox property="Song09"/></td>
 		</tr>
 		<tr>
 			<td>ララバイ</td>
-			<td><html:checkbox property="Song10" value="${f:h(cs.song10)}"/></td>
+			<td><html:checkbox property="Song10"/></td>
 		</tr>
 		<tr>
 			<td>レクイエム</td>
-			<td><html:checkbox property="Song11" value="${f:h(cs.song11)}"/></td>
+			<td><html:checkbox property="Song11"/></td>
 		</tr>
 		<tr>
 			<td>レジスタンス</td>
-			<td><html:checkbox property="Song12" value="${f:h(cs.song12)}"/></td>
+			<td><html:checkbox property="Song12"/></td>
 		</tr>
 		<tr align="center">
 			<td colspan="2">レベル５から習得可能</td>
 		</tr>
 		<tr>
 			<td>アトリビュート</td>
-			<td><html:checkbox property="Song13" value="${f:h(cs.song13)}"/></td>
+			<td><html:checkbox property="Song13"/></td>
 		</tr>
 		<tr>
 			<td>キュアリオスティ</td>
-			<td><html:checkbox property="Song14" value="${f:h(cs.song14)}"/></td>
+			<td><html:checkbox property="Song14"/></td>
 		</tr>
 		<tr>
 			<td>チャーミング</td>
-			<td><html:checkbox property="Song15" value="${f:h(cs.song15)}"/></td>
+			<td><html:checkbox property="Song15"/></td>
 		</tr>
 		<tr>
 			<td>チョーク</td>
-			<td><html:checkbox property="Song16" value="${f:h(cs.song16)}"/></td>
+			<td><html:checkbox property="Song16"/></td>
 		</tr>
 		<tr>
 			<td>ヌーディ</td>
-			<td><html:checkbox property="Song17" value="${f:h(cs.song17)}"/></td>
+			<td><html:checkbox property="Song17"/></td>
 		</tr>
 		<tr>
 			<td>ノスタルジィ</td>
-			<td><html:checkbox property="Song18" value="${f:h(cs.song18)}"/></td>
+			<td><html:checkbox property="Song18"/></td>
 		</tr>
 		<tr>
 			<td>ビター</td>
-			<td><html:checkbox property="Song19" value="${f:h(cs.song19)}"/></td>
+			<td><html:checkbox property="Song19"/></td>
 		</tr>
 		<tr>
 			<td>ラブソング</td>
-			<td><html:checkbox property="Song20" value="${f:h(cs.song20)}"/></td>
+			<td><html:checkbox property="Song20"/></td>
 		</tr>
 		<tr align="center">
 			<td colspan="2">レベル10から習得可能</td>
 		</tr>
 		<tr>
 			<td>アメージング</td>
-			<td><html:checkbox property="Song21" value="${f:h(cs.song21)}"/></td>
+			<td><html:checkbox property="Song21"/></td>
 		</tr>
 		<tr>
 			<td>クラップ</td>
-			<td><html:checkbox property="Song22" value="${f:h(cs.song22)}"/></td>
+			<td><html:checkbox property="Song22"/></td>
 		</tr>
 		<tr>
 			<td>コーラス</td>
-			<td><html:checkbox property="Song23" value="${f:h(cs.song23)}"/></td>
+			<td><html:checkbox property="Song23"/></td>
 		</tr>
 		<tr>
 			<td>ソニックヴォイス</td>
-			<td><html:checkbox property="Song24" value="${f:h(cs.song24)}"/></td>
+			<td><html:checkbox property="Song24"/></td>
 		</tr>
 		<tr>
 			<td>ダル</td>
-			<td><html:checkbox property="Song25" value="${f:h(cs.song25)}"/></td>
+			<td><html:checkbox property="Song25"/></td>
 		</tr>
 		<tr>
 			<td>ダンス</td>
-			<td><html:checkbox property="Song26" value="${f:h(cs.song26)}"/></td>
+			<td><html:checkbox property="Song26"/></td>
 		</tr>
 		<tr>
 			<td>フォール</td>
-			<td><html:checkbox property="Song27" value="${f:h(cs.song27)}"/></td>
+			<td><html:checkbox property="Song27"/></td>
 		</tr>
 		<tr>
 			<td>マーチ</td>
-			<td><html:checkbox property="Song28" value="${f:h(cs.song28)}"/></td>
+			<td><html:checkbox property="Song28"/></td>
 		</tr>
 		<tr>
 			<td>リダクション</td>
-			<td><html:checkbox property="Song29" value="${f:h(cs.song29)}"/></td>
+			<td><html:checkbox property="Song29"/></td>
 		</tr>
 		<tr>
 			<td>レイジィ</td>
-			<td><html:checkbox property="Song30" value="${f:h(cs.song30)}"/></td>
+			<td><html:checkbox property="Song30"/></td>
 		</tr>
 	</table>
 	</div>
@@ -684,105 +684,105 @@
 		</tr>
 		<tr>
 			<td>大型制御</td>
-			<td><html:checkbox property="Rider01" value="${f:h(cs.rider01)}"/></td>
+			<td><html:checkbox property="Rider01"/></td>
 		</tr>
 		<tr>
 			<td>騎獣回避</td>
-			<td><html:checkbox property="Rider02" value="${f:h(cs.rider02)}"/></td>
+			<td><html:checkbox property="Rider02"/></td>
 		</tr>
 		<tr>
 			<td>騎獣の献身</td>
-			<td><html:checkbox property="Rider03" value="${f:h(cs.rider03)}"/></td>
+			<td><html:checkbox property="Rider03"/></td>
 		</tr>
 		<tr>
 			<td>攻撃指令</td>
-			<td><html:checkbox property="Rider04" value="${f:h(cs.rider04)}"/></td>
+			<td><html:checkbox property="Rider04"/></td>
 		</tr>
 		<tr>
 			<td>水中騎乗</td>
-			<td><html:checkbox property="Rider05" value="${f:h(cs.rider05)}"/></td>
+			<td><html:checkbox property="Rider05"/></td>
 		</tr>
 		<tr>
 			<td>探索指令/td>
-			<td><html:checkbox property="Rider06" value="${f:h(cs.rider06)}"/></td>
+			<td><html:checkbox property="Rider06"/></td>
 		</tr>
 		<tr>
 			<td>タンデム</td>
-			<td><html:checkbox property="Rider07" value="${f:h(cs.rider07)}"/></td>
+			<td><html:checkbox property="Rider07"/></td>
 		</tr>
 		<tr>
 			<td>チャージ</td>
-			<td><html:checkbox property="Rider08" value="${f:h(cs.rider08)}"/></td>
+			<td><html:checkbox property="Rider08"/></td>
 		</tr>
 		<tr>
 			<td>特殊攻撃指令</td>
-			<td><html:checkbox property="Rider09" value="${f:h(cs.rider09)}"/></td>
+			<td><html:checkbox property="Rider09"/></td>
 		</tr>
 		<tr>
 			<td>振り下ろし</td>
-			<td><html:checkbox property="Rider10" value="${f:h(cs.rider10)}"/></td>
+			<td><html:checkbox property="Rider10"/></td>
 		</tr>
 		<tr align="center">
 			<td colspan="2">レベル５から習得可能</td>
 		</tr>
 		<tr>
 			<td>遠隔指示</td>
-			<td><html:checkbox property="Rider11" value="${f:h(cs.rider11)}"/></td>
+			<td><html:checkbox property="Rider11"/></td>
 		</tr>
 		<tr>
 			<td>騎獣回避Ⅱ</td>
-			<td><html:checkbox property="Rider12" value="${f:h(cs.rider12)}"/></td>
+			<td><html:checkbox property="Rider12"/></td>
 		</tr>
 		<tr>
 			<td>空中騎乗</td>
-			<td><html:checkbox property="Rider13" value="${f:h(cs.rider13)}"/></td>
+			<td><html:checkbox property="Rider13"/></td>
 		</tr>
 		<tr>
 			<td>人馬一体</td>
-			<td><html:checkbox property="Rider14" value="${f:h(cs.rider14)}"/></td>
+			<td><html:checkbox property="Rider14"/></td>
 		</tr>
 		<tr>
 			<td>トランプル</td>
-			<td><html:checkbox property="Rider15" value="${f:h(cs.rider15)}"/></td>
+			<td><html:checkbox property="Rider15"/></td>
 		</tr>
 		<tr>
 			<td>振り下ろしⅡ</td>
-			<td><html:checkbox property="Rider16" value="${f:h(cs.rider16)}"/></td>
+			<td><html:checkbox property="Rider16"/></td>
 		</tr>
 		<tr>
 			<td>呼び笛</td>
-			<td><html:checkbox property="Rider17" value="${f:h(cs.rider17)}"/></td>
+			<td><html:checkbox property="Rider17"/></td>
 		</tr>
 		<tr align="center">
 			<td colspan="2">レベル10から習得可能</td>
 		</tr>
 		<tr>
 			<td>威圧</td>
-			<td><html:checkbox property="Rider18" value="${f:h(cs.rider18)}"/></td>
+			<td><html:checkbox property="Rider18"/></td>
 		</tr>
 		<tr>
 			<td>騎乗指揮</td>
-			<td><html:checkbox property="Rider19" value="${f:h(cs.rider19)}"/></td>
+			<td><html:checkbox property="Rider19"/></td>
 		</tr>
 		<tr>
 			<td>スーパーチャージ</td>
-			<td><html:checkbox property="Rider20" value="${f:h(cs.rider20)}"/></td>
+			<td><html:checkbox property="Rider20"/></td>
 		</tr>
 		<tr>
 			<td>縦横無尽</td>
-			<td><html:checkbox property="Rider21" value="${f:h(cs.rider21)}"/></td>
+			<td><html:checkbox property="Rider21"/></td>
 		</tr>
 		<tr>
 			<td>八面六臂</td>
-			<td><html:checkbox property="Rider22" value="${f:h(cs.rider22)}"/></td>
+			<td><html:checkbox property="Rider22"/></td>
 		</tr>
 		<tr>
 			<td>バランス</td>
-			<td><html:checkbox property="Rider23" value="${f:h(cs.rider23)}"/></td>
+			<td><html:checkbox property="Rider23"/></td>
 		</tr>
 		<tr>
 			<td>振り下ろしⅢ</td>
-			<td><html:checkbox property="Rider24" value="${f:h(cs.rider24)}"/></td>
+			<td><html:checkbox property="Rider24"/></td>
 		</tr>
 	</table>
 	</div>
@@ -799,78 +799,78 @@
 			</tr>
 			<tr align="center">
 				<td>交易共通語</td>
-				<td><html:checkbox property="lang01Re"  value="${f:h(cs.lang01Re)}"/></td>
-				<td><html:checkbox property="lang01Wr"  value="${f:h(cs.lang01Wr)}"/></td>
+				<td><html:checkbox property="lang01Re"/></td>
+				<td><html:checkbox property="lang01Wr"/></td>
 			</tr>
 			<tr align="center">
 				<td>汎用蛮族語</td>
-				<td><html:checkbox property="lang02Re"  value="${f:h(cs.lang02Re)}"/></td>
-				<td><html:checkbox property="lang02Wr"  value="${f:h(cs.lang02Wr)}"/></td>
+				<td><html:checkbox property="lang02Re"/></td>
+				<td><html:checkbox property="lang02Wr"/></td>
 			</tr>
 			<tr align="center">
 				<td>魔法文明語</td>
-				<td><html:checkbox property="lang03Re"  value="${f:h(cs.lang03Re)}"/></td>
-				<td><html:checkbox property="lang03Wr"  value="${f:h(cs.lang03Wr)}"/></td>
+				<td><html:checkbox property="lang03Re"/></td>
+				<td><html:checkbox property="lang03Wr"/></td>
 			</tr>
 			<tr align="center">
 				<td>魔動機文明語</td>
-				<td><html:checkbox property="lang04Re"  value="${f:h(cs.lang04Re)}"/></td>
-				<td><html:checkbox property="lang04Wr"  value="${f:h(cs.lang04Wr)}"/></td>
+				<td><html:checkbox property="lang04Re"/></td>
+				<td><html:checkbox property="lang04Wr"/></td>
 			</tr>
 			<tr align="center">
 				<td>エルフ語</td>
-				<td><html:checkbox property="lang05Re"  value="${f:h(cs.lang05Re)}"/></td>
-				<td><html:checkbox property="lang05Wr"  value="${f:h(cs.lang05Wr)}"/></td>
+				<td><html:checkbox property="lang05Re"/></td>
+				<td><html:checkbox property="lang05Wr"/></td>
 			</tr>
 			<tr align="center">
 				<td>ドワーフ語</td>
-				<td><html:checkbox property="lang06Re"  value="${f:h(cs.lang06Re)}"/></td>
-				<td><html:checkbox property="lang06Wr"  value="${f:h(cs.lang06Wr)}"/></td>
+				<td><html:checkbox property="lang06Re"/></td>
+				<td><html:checkbox property="lang06Wr"/></td>
 			</tr>
 			<tr align="center">
 				<td>シャドウ語</td>
-				<td><html:checkbox property="lang07Re"  value="${f:h(cs.lang07Re)}"/></td>
-				<td><html:checkbox property="lang07Wr"  value="${f:h(cs.lang07Wr)}"/></td>
+				<td><html:checkbox property="lang07Re"/></td>
+				<td><html:checkbox property="lang07Wr"/></td>
 			</tr>
 			<tr align="center">
 				<td>神紀文明語</td>
-				<td><html:checkbox property="lang08Re"  value="${f:h(cs.lang08Re)}"/></td>
-				<td><html:checkbox property="lang08Wr"  value="${f:h(cs.lang08Wr)}"/></td>
+				<td><html:checkbox property="lang08Re"/></td>
+				<td><html:checkbox property="lang08Wr"/></td>
 			</tr>
 			<tr align="center">
 				<td>妖精語</td>
-				<td><html:checkbox property="lang09Re"  value="${f:h(cs.lang09Re)}"/></td>
-				<td><html:checkbox property="lang09Wr"  value="${f:h(cs.lang09Wr)}"/></td>
+				<td><html:checkbox property="lang09Re"/></td>
+				<td><html:checkbox property="lang09Wr"/></td>
 			</tr>
 			<tr align="center">
 				<td>巨人語</td>
-				<td><html:checkbox property="lang10Re"  value="${f:h(cs.lang10Re)}"/></td>
-				<td><html:checkbox property="lang10Wr"  value="${f:h(cs.lang10Wr)}"/></td>
+				<td><html:checkbox property="lang10Re"/></td>
+				<td><html:checkbox property="lang10Wr"/></td>
 			</tr>
 			<tr align="center">
 				<td>ドラゴン語</td>
-				<td><html:checkbox property="lang11Re"  value="${f:h(cs.lang11Re)}"/></td>
-				<td><html:checkbox property="lang11Wr"  value="${f:h(cs.lang11Wr)}"/></td>
+				<td><html:checkbox property="lang11Re"/></td>
+				<td><html:checkbox property="lang11Wr"/></td>
 			</tr>
 			<tr align="center">
 				<td>ドレイク語</td>
-				<td><html:checkbox property="lang12Re"  value="${f:h(cs.lang12Re)}"/></td>
-				<td><html:checkbox property="lang12Wr"  value="${f:h(cs.lang12Wr)}"/></td>
+				<td><html:checkbox property="lang12Re"/></td>
+				<td><html:checkbox property="lang12Wr"/></td>
 			</tr>
 			<tr align="center">
 				<td>魔神語</td>
-				<td><html:checkbox property="lang13Re"  value="${f:h(cs.lang13Re)}"/></td>
-				<td><html:checkbox property="lang13Wr"  value="${f:h(cs.lang13Wr)}"/></td>
+				<td><html:checkbox property="lang13Re"/></td>
+				<td><html:checkbox property="lang13Wr"/></td>
 			</tr>
 			<tr align="center">
 				<td>妖魔語</td>
-				<td><html:checkbox property="lang14Re"  value="${f:h(cs.lang14Re)}"/></td>
-				<td><html:checkbox property="lang14Wr"  value="${f:h(cs.lang14Wr)}"/></td>
+				<td><html:checkbox property="lang14Re"/></td>
+				<td><html:checkbox property="lang14Wr"/></td>
 			</tr>
 			<tr align="center">
 				<td>その他</td>
-				<td><html:checkbox property="lang15Re"  value="${f:h(cs.lang15Re)}"/></td>
-				<td><html:checkbox property="lang15Wr"  value="${f:h(cs.lang15Wr)}"/></td>
+				<td><html:checkbox property="lang15Re"/></td>
+				<td><html:checkbox property="lang15Wr"/></td>
 			</tr>
 		</table>
 </div>
