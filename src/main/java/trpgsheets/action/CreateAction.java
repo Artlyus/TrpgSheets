@@ -49,8 +49,7 @@ public class CreateAction {
     	CharacterSheet characterSheet = new CharacterSheet();
     	Beans.copy(createForm, characterSheet).execute();
 
-    	int result = 0;
-    	result = jdbcManager.updateBySqlFile("data/insertCS.sql", characterSheet).execute();
+    	jdbcManager.updateBySqlFile("data/insertCS.sql", characterSheet).execute();
 
     	return "complete?redirect=true";
     }
@@ -60,6 +59,8 @@ public class CreateAction {
     	cs = jdbcManager.from(CharacterSheet.class)
         		.where("characterId = ?", createForm.characterId)
     			.getSingleResult();
+
+    	createForm.Skill01 = true;
 
     	return "edit.jsp";
     }
