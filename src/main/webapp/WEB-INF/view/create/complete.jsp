@@ -9,8 +9,6 @@
 					</div>
 					<s:link href="/index">TOPへ</s:link>
 					<BR>
-					<s:link href="/create/edit/${characterId}">シート編集画面へ</s:link>
-					<BR>
 				</div>
 			</div>
 	</tiles:put>
