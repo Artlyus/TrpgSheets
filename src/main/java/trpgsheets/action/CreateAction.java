@@ -56,7 +56,7 @@ public class CreateAction {
     }
 
     @Execute(validator = false)
-    public String doEdit(){
+    public String update(){
     	CharacterSheet characterSheet = new CharacterSheet();
     	Beans.copy(createForm, characterSheet).execute();
 

@@ -1072,7 +1072,7 @@
 		<td><html:textarea rows="4" cols="60" property="memo" value="${f:h(cs.memo)}"/></td>
 </table>
 </div>
-<s:submit property="doEdit" value="Edit" />
+<s:submit property="update" value="更新" />
 </s:form>
 </div>
 </tiles:put>
