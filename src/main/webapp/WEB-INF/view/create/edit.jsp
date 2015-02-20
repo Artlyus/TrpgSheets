@@ -1074,6 +1074,7 @@
 </div>
 <s:submit property="update" value="更新" />
 </s:form>
+<a href="/TrpgSheets/sheetList"><html:button property="top" value="キャラシート一覧へ戻る" /></a>
 </div>
 </tiles:put>
 </tiles:insert>

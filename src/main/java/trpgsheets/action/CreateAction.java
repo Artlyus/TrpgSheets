@@ -83,4 +83,9 @@ public class CreateAction {
     public String complete(){
     	return "complete.jsp";
     }
+
+    @Execute(validator = false)
+    public String top(){
+    	return "/index.jsp";
+    }
 }

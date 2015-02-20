@@ -277,6 +277,8 @@ UPDATE character_sheet SET
  shield_str=/*shieldStr*/'',
  shield_def=/*shieldDef*/'',
  shield_avoid=/*shieldAvoid*/'',
+ total_def=/*totalDef*/,
+ total_avoid=/*totalAvoid*/,
  acc_head_name=/*accHeadName*/'',
  acc_head_note=/*accHeadNote*/'',
  acc_ear_name=/*accEarName*/'',

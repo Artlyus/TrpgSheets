@@ -1071,8 +1071,9 @@
 		<td><html:textarea rows="4" cols="60" property="memo" /></td>
 </table>
 </div>
-<s:submit property="doCreate" value="Create" />
+<s:submit property="doCreate" value="作成" />
 </s:form>
+<a href="/TrpgSheets"><html:button property="top" value="TOPへ戻る" /></a>
 </div>
 </tiles:put>
 </tiles:insert>
