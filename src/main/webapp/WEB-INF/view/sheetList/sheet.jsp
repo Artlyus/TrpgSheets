@@ -234,21 +234,21 @@
 					<td>${f:h(cs.wp1hit)}</td>
 					<td>2D6+${f:h(hit)}</td>
 					<td>${f:h(damage)}</td>
-					<td>K${f:h(cs.wp1power)}@${f:h(cs.wp1critical)}+${f:h(damage)}+${f:h(cs.wp1chaseDamage)}</td>
+					<td>K${f:h(cs.wp1power)}@${f:h(cs.wp1critical)}+${f:h(damage)}</td>
 				</tr>
 				<tr>
 					<td>${f:h(cs.wp2name)}</td>
 					<td>${f:h(cs.wp2hit)}</td>
 					<td>2D6+${f:h(hit)}</td>
 					<td>${f:h(damage)}</td>
-					<td>K${f:h(cs.wp2power)}@${f:h(cs.wp2critical)}+${f:h(damage)}+${f:h(cs.wp2chaseDamage)}</td>
+					<td>K${f:h(cs.wp2power)}@${f:h(cs.wp2critical)}+${f:h(damage)}</td>
 				</tr>
 				<tr>
 					<td>${f:h(cs.wp3name)}</td>
 					<td>${f:h(cs.wp3hit)}</td>
 					<td>2D6+${f:h(hit)}</td>
 					<td>${f:h(damage)}</td>
-					<td>K${f:h(cs.wp3power)}@${f:h(cs.wp3critical)}+${f:h(damage)}+${f:h(cs.wp3chaseDamage)}</td>
+					<td>K${f:h(cs.wp3power)}@${f:h(cs.wp3critical)}+${f:h(damage)}</td>
 				</tr>
 			</table>
 					<BR>
