@@ -15,28 +15,38 @@
  */
 package trpgsheets.action;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.annotation.Resource;
 
 import org.seasar.extension.jdbc.JdbcManager;
+import org.seasar.struts.annotation.ActionForm;
 import org.seasar.struts.annotation.Execute;
 
 import trpgsheets.entity.CharacterSheet;
+import trpgsheets.entity.JobClass;
+import trpgsheets.form.SheetListForm;
 
 public class SheetListAction {
 
 	@Resource
 	public JdbcManager jdbcManager;
 
+	@ActionForm
+	public SheetListForm sheetListForm;
+
 	public List<CharacterSheet> csList;
 
 	public CharacterSheet cs;
 
+	List<JobClass> jcList = new ArrayList<JobClass>();
+
+
 	// 打撃点
-	public int damage;
+	public int damage = 0;
 	// 命中
-	public int hit;
+	public int hit = 0;
 	// 魔物知識
 	public int knowledge;
 	// 先制
@@ -51,25 +61,102 @@ public class SheetListAction {
         return "list.jsp";
 	}
 
-    @Execute(validator = false)
+    @Execute(validator = false, urlPattern="showSheet/{characterId}")
     public String showSheet(){
-    	int characterId = 2;
     	cs = jdbcManager.from(CharacterSheet.class)
-    			.where("characterId = ?", characterId)
+    			.where("characterId = ?", sheetListForm.characterId)
     			.getSingleResult();
 
-    	// 打撃基本ボーナス計算
-    	damage = 7 + Integer.parseInt(cs.bonusStr);
+    	setJobList();
 
-    	// 命中基本ボーナス計算
-    	hit = 7 + Integer.parseInt(cs.bonusDex);
+    	for(int i = 0; i < jcList.size(); i++){
+			// 打撃基本ボーナス計算
+			switch (jcList.get(i).classId){
+				case 1:
+						damage = Math.max(damage, jcList.get(i).classLevel);
+					break;
+				case 2:
+						damage = Math.max(damage, jcList.get(i).classLevel);
+					break;
+	    		case 3:
+						damage = Math.max(damage, jcList.get(i).classLevel);
+					break;
+	    		case 4:
+						damage = Math.max(damage, jcList.get(i).classLevel);
+					break;
+			}
 
-    	// 魔物知識
-    	knowledge = 0 + Integer.parseInt(cs.bonusItl);
+			// 命中基本ボーナス計算
+			switch (jcList.get(i).classId){
+				case 1:
+					hit = Math.max(hit, jcList.get(i).classLevel);
+					break;
+				case 2:
+					hit = Math.max(hit, jcList.get(i).classLevel);
+					break;
+	    		case 3:
+					hit = Math.max(hit, jcList.get(i).classLevel);
+					break;
+	    		case 4:
+					hit = Math.max(hit, jcList.get(i).classLevel);
+					break;
+			}
 
-    	// 先制
-    	first = 5 + Integer.parseInt(cs.bonusAgi);
+	    	// 魔物知識 12
+			if(jcList.get(i).classId == 12){
+				knowledge = jcList.get(i).classLevel + Integer.parseInt(cs.bonusItl);
+			}
+
+	    	// 先制 10
+			if(jcList.get(i).classId == 10){
+				first = jcList.get(i).classLevel + Integer.parseInt(cs.bonusAgi);
+			}
+    	}
+
+		damage = damage + Integer.parseInt(cs.bonusStr);
+		hit = hit + Integer.parseInt(cs.bonusDex);
+
 
     	return "sheet.jsp";
+    }
+
+    public void setJobList(){
+    	JobClass jc1 = new JobClass();
+    	JobClass jc2 = new JobClass();
+    	JobClass jc3 = new JobClass();
+    	JobClass jc4 = new JobClass();
+    	JobClass jc5 = new JobClass();
+    	JobClass jc6 = new JobClass();
+
+    	if(cs.class1 != null && !(cs.class1.equals(""))){
+    		jc1.classId = Integer.parseInt(cs.class1);
+    		jc1.classLevel = Integer.parseInt(cs.c1level);
+    		jcList.add(jc1);
+    	}
+    	if(cs.class2 != null && !(cs.class2.equals(""))){
+			jc2.classId = Integer.parseInt(cs.class2);
+			jc2.classLevel = Integer.parseInt(cs.c2level);
+			jcList.add(jc2);
+    	}
+    	if(cs.class3 != null && !(cs.class3.equals(""))){
+	    	jc3.classId = Integer.parseInt(cs.class3);
+	    	jc3.classLevel = Integer.parseInt(cs.c3level);
+	    	jcList.add(jc3);
+    	}
+    	if(cs.class4 != null && !(cs.class4.equals(""))){
+	    	jc4.classId = Integer.parseInt(cs.class4);
+	    	jc4.classLevel = Integer.parseInt(cs.c4level);
+	    	jcList.add(jc4);
+    	}
+    	if(cs.class5 != null && !(cs.class5.equals(""))){
+	    	jc5.classId = Integer.parseInt(cs.class5);
+	    	jc5.classLevel = Integer.parseInt(cs.c5level);
+	    	jcList.add(jc5);
+    	}
+    	if(cs.class6 != null && !(cs.class6.equals(""))){
+	    	jc6.classId = Integer.parseInt(cs.class6);
+	    	jc6.classLevel = Integer.parseInt(cs.c6level);
+	    	jcList.add(jc6);
+    	}
     }
 }

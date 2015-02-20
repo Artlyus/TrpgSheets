@@ -9,7 +9,7 @@
 					</div>
 					<p>小説家になろうクラスタ向けキャラシートサイトです。</p>
 					<p>現在はソード・ワールド2.0　ルールブックⅠ～Ⅲのみ対応です。</p>
-					<s:link href="/create/index">キャラクター作成</s:link><BR><BR>
+					<s:link href="/create/index"><html:button property="toCreate" value="キャラクターシート作成" /></s:link><BR><BR>
 				</div>
 				<div class="section normal update">
 					<div class="heading">

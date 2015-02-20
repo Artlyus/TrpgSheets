@@ -22,14 +22,15 @@
 						</tr>
 						<c:forEach items="${csList}" var="list" varStatus="status">
 						<tr>
-							<td align="right"><s:link href="/create/edit/${list.characterId}"><c:out value="${list.characterId}" /></s:link></td>
+							<td align="right"><s:link href="showSheet/${list.characterId}"><c:out value="${list.characterId}" /></s:link></td>
 							<td><c:out value="${list.characterName}" /></td>
 							<td><c:out value="${list.playerName}" /></td>
 							<td><c:out value="${list.race}" /></td>
 						</tr>
 						</c:forEach>
 					</table>
-					<s:link href="showSheet">テスト</s:link>
+					<BR>
+					<s:link href="/index"><html:button property="toTop" value="TOPへ戻る" /></s:link>
 				</div>
 			</div>
 	</tiles:put>

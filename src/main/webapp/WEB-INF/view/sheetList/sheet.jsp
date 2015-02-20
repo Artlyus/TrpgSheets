@@ -16,8 +16,6 @@
 							<td>${f:h(cs.hp)}</td>
 							<td>MP</td>
 							<td>${f:h(cs.mp)}</td>
-							<td>打撃</td>
-							<td>${f:h(damage)}</td>
 							<td>防護</td>
 							<td>${f:h(cs.totalDef)}</td>
 							<td>魔物知識</td>
@@ -28,8 +26,6 @@
 							<td>${f:h(cs.lifeRegist)}</td>
 							<td>精抵</td>
 							<td>${f:h(cs.mentalRegist)}</td>
-							<td>命中</td>
-							<td>${f:h(hit)}</td>
 							<td>回避</td>
 							<td>${f:h(cs.totalDef)}</td>
 							<td>先制</td>
@@ -231,10 +227,35 @@
 					</table>
 				</td>
 			</table>
-			<BR>
+			<table border="3">
+				<tr><td>武器名</td><td>命中</td><td>命中式</td><td>打撃</td><td>威力式</td></tr>
+				<tr>
+					<td>${f:h(cs.wp1name)}</td>
+					<td>${f:h(cs.wp1hit)}</td>
+					<td>2D6+${f:h(hit)}</td>
+					<td>${f:h(damage)}</td>
+					<td>K${f:h(cs.wp1power)}@${f:h(cs.wp1critical)}+${f:h(damage)}+${f:h(cs.wp1chaseDamage)}</td>
+				</tr>
+				<tr>
+					<td>${f:h(cs.wp2name)}</td>
+					<td>${f:h(cs.wp2hit)}</td>
+					<td>2D6+${f:h(hit)}</td>
+					<td>${f:h(damage)}</td>
+					<td>K${f:h(cs.wp2power)}@${f:h(cs.wp2critical)}+${f:h(damage)}+${f:h(cs.wp2chaseDamage)}</td>
+				</tr>
+				<tr>
+					<td>${f:h(cs.wp3name)}</td>
+					<td>${f:h(cs.wp3hit)}</td>
+					<td>2D6+${f:h(hit)}</td>
+					<td>${f:h(damage)}</td>
+					<td>K${f:h(cs.wp3power)}@${f:h(cs.wp3critical)}+${f:h(damage)}+${f:h(cs.wp3chaseDamage)}</td>
+				</tr>
+			</table>
 					<BR>
-					<s:link href="/sheetList">キャラクターシート一覧へ</s:link>
-					<BR>
+					<s:link href="/create/edit/${cs.characterId}"><html:button property="toEdit" value="編集する"/></s:link>
+					<BR><BR>
+					<s:link href="/sheetList"><html:button property="toSheetList" value="キャラクターシート一覧へ" /></s:link>
+					<BR><BR>
 				</div>
 			</div>
 	</tiles:put>

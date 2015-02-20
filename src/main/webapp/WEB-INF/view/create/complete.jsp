@@ -9,6 +9,7 @@
 					</div>
 					<s:link href="/index">TOPへ</s:link>
 					<BR>
+					<s:link href="/TrpgSheets/sheetList">キャラクターシート一覧へ</s:link>
 				</div>
 			</div>
 	</tiles:put>
