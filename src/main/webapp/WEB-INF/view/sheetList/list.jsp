@@ -29,6 +29,7 @@
 						</tr>
 						</c:forEach>
 					</table>
+					<s:link href="showSheet">テスト</s:link>
 				</div>
 			</div>
 	</tiles:put>

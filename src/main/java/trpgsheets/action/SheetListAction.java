@@ -31,6 +31,17 @@ public class SheetListAction {
 
 	public List<CharacterSheet> csList;
 
+	public CharacterSheet cs;
+
+	// 打撃点
+	public int damage;
+	// 命中
+	public int hit;
+	// 魔物知識
+	public int knowledge;
+	// 先制
+	public int first;
+
     @Execute(validator = false)
 	public String index() {
     	csList = jdbcManager.from(CharacterSheet.class)
@@ -39,4 +50,26 @@ public class SheetListAction {
 
         return "list.jsp";
 	}
+
+    @Execute(validator = false)
+    public String showSheet(){
+    	int characterId = 2;
+    	cs = jdbcManager.from(CharacterSheet.class)
+    			.where("characterId = ?", characterId)
+    			.getSingleResult();
+
+    	// 打撃基本ボーナス計算
+    	damage = 7 + Integer.parseInt(cs.bonusStr);
+
+    	// 命中基本ボーナス計算
+    	hit = 7 + Integer.parseInt(cs.bonusDex);
+
+    	// 魔物知識
+    	knowledge = 0 + Integer.parseInt(cs.bonusItl);
+
+    	// 先制
+    	first = 5 + Integer.parseInt(cs.bonusAgi);
+
+    	return "sheet.jsp";
+    }
 }
