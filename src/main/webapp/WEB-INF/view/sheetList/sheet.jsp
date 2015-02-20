@@ -27,7 +27,7 @@
 							<td>精抵</td>
 							<td>${f:h(cs.mentalRegist)}</td>
 							<td>回避</td>
-							<td>${f:h(cs.totalDef)}</td>
+							<td>${f:h(cs.totalAvoid)}</td>
 							<td>先制</td>
 							<td>${f:h(first)}</td>
 						</tr>

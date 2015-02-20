@@ -984,8 +984,8 @@
 	<table border="1">
 		<tr align="center">
 			<td>合計</td>
-			<td colspan="2">回避<html:text property="totalDef" size="2" value="${f:h(cs.totalDef)}"/></td>
-			<td colspan="2">防護<html:text property="totalAvoid" size="2" value="${f:h(cs.totalAvoid)}"/></td>
+			<td colspan="2">回避<html:text property="totalAvoid" size="2" value="${f:h(cs.totalDef)}"/></td>
+			<td colspan="2">防護<html:text property="totalDef" size="2" value="${f:h(cs.totalAvoid)}"/></td>
 		</tr>
 	</table>
 </div>
