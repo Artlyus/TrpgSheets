@@ -84,8 +84,4 @@ public class CreateAction {
     	return "complete.jsp";
     }
 
-    @Execute(validator = false)
-    public String top(){
-    	return "/index.jsp";
-    }
 }
