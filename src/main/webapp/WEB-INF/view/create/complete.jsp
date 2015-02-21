@@ -8,8 +8,9 @@
 						<p>登録が完了しました。</p>
 					</div>
 					<s:link href="/index">TOPへ</s:link>
-					<BR>
+					<BR><BR>
 					<s:link href="/sheetList">キャラクターシート一覧へ</s:link>
+					<BR><BR>
 				</div>
 			</div>
 	</tiles:put>

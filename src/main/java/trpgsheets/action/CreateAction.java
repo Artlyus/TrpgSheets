@@ -72,9 +72,6 @@ public class CreateAction {
     			.getSingleResult();
 
     	Beans.copy(cs, createForm).execute();
-    	//createForm.Skill01 = true;
-
-
 
     	return "edit.jsp";
     }
@@ -83,5 +80,4 @@ public class CreateAction {
     public String complete(){
     	return "complete.jsp";
     }
-
 }

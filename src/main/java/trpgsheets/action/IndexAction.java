@@ -23,10 +23,4 @@ public class IndexAction {
 	public String index() {
         return "index.jsp";
 	}
-
-    @Execute(validator = false)
-    public String login(){
-    	return "create";
-    }
-
 }
