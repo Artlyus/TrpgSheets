@@ -113,8 +113,12 @@ public class SheetListAction {
 			}
     	}
 
-		damage = damage + Integer.parseInt(cs.bonusStr);
-		hit = hit + Integer.parseInt(cs.bonusDex);
+    	if(!cs.bonusStr.equals(null)){
+    		damage = damage + Integer.parseInt(cs.bonusStr);
+    	}
+    	if(!cs.bonusDex.equals(null)){
+    		hit = hit + Integer.parseInt(cs.bonusDex);
+    	}
 
 
     	return "sheet.jsp";

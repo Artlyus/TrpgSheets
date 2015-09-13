@@ -11,7 +11,7 @@
 			"org.postgresql.Driver"
         </property>
         <property name="URL">
-          "jdbc:postgresql://54.65.237.171:5432/postgres"
+          "jdbc:postgresql://52.68.144.86:5432/postgres"
         </property>
         <property name="user">"postgres"</property>
         <property name="password">"rb26dett"</property>
